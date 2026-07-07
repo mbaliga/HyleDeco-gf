@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breve" format="2">
+  <advance width="265"/>
+  <unicode hex="02D8"/>
+  <outline>
+    <contour>
+      <point x="71" y="668" type="line"/>
+      <point x="78" y="660" type="line"/>
+      <point x="87" y="655" type="line"/>
+      <point x="97" y="650" type="line"/>
+      <point x="107" y="648" type="line"/>
+      <point x="118" y="648" type="line"/>
+      <point x="129" y="650" type="line"/>
+      <point x="139" y="655" type="line"/>
+      <point x="148" y="660" type="line"/>
+      <point x="155" y="668" type="line"/>
+      <point x="164" y="683" type="line"/>
+      <point x="168" y="687" type="line"/>
+      <point x="175" y="690" type="line"/>
+      <point x="183" y="691" type="line"/>
+      <point x="190" y="688" type="line"/>
+      <point x="231" y="664" type="line"/>
+      <point x="237" y="656" type="line"/>
+      <point x="238" y="646" type="line"/>
+      <point x="235" y="639" type="line"/>
+      <point x="222" y="616" type="line"/>
+      <point x="205" y="599" type="line"/>
+      <point x="182" y="581" type="line"/>
+      <point x="150" y="568" type="line"/>
+      <point x="127" y="564" type="line"/>
+      <point x="101" y="564" type="line"/>
+      <point x="71" y="570" type="line"/>
+      <point x="42" y="582" type="line"/>
+      <point x="20" y="599" type="line"/>
+      <point x="4" y="616" type="line"/>
+      <point x="-11" y="643" type="line"/>
+      <point x="-12" y="648" type="line"/>
+      <point x="-11" y="654" type="line"/>
+      <point x="-9" y="660" type="line"/>
+      <point x="-5" y="664" type="line"/>
+      <point x="40" y="690" type="line"/>
+      <point x="49" y="691" type="line"/>
+      <point x="58" y="687" type="line"/>
+      <point x="62" y="683" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>6e2bee706ce278899b43862654a0304a370185dc162d6f6917f17f17e37c62e407d80479eececa565917ceec5891d6657cea6b5d0fc3e5050f1e884e128af2cb</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

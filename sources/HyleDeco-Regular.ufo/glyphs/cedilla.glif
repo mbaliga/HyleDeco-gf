@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedilla" format="2">
+  <advance width="170"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="53" y="-39" type="line"/>
+      <point x="53" y="4" type="line"/>
+      <point x="56" y="11" type="line"/>
+      <point x="62" y="17" type="line"/>
+      <point x="71" y="20" type="line"/>
+      <point x="119" y="20" type="line"/>
+      <point x="128" y="17" type="line"/>
+      <point x="134" y="11" type="line"/>
+      <point x="136" y="6" type="line"/>
+      <point x="137" y="0" type="line"/>
+      <point x="137" y="-70" type="line"/>
+      <point x="136" y="-77" type="line"/>
+      <point x="138" y="-84" type="line"/>
+      <point x="142" y="-110" type="line"/>
+      <point x="142" y="-119" type="line"/>
+      <point x="135" y="-146" type="line"/>
+      <point x="127" y="-158" type="line"/>
+      <point x="106" y="-180" type="line"/>
+      <point x="102" y="-183" type="line"/>
+      <point x="93" y="-188" type="line"/>
+      <point x="72" y="-195" type="line"/>
+      <point x="56" y="-197" type="line"/>
+      <point x="25" y="-191" type="line"/>
+      <point x="15" y="-186" type="line"/>
+      <point x="-7" y="-171" type="line"/>
+      <point x="-11" y="-164" type="line"/>
+      <point x="-12" y="-158" type="line"/>
+      <point x="-11" y="-152" type="line"/>
+      <point x="-9" y="-147" type="line"/>
+      <point x="18" y="-109" type="line"/>
+      <point x="22" y="-105" type="line"/>
+      <point x="29" y="-102" type="line"/>
+      <point x="37" y="-101" type="line"/>
+      <point x="45" y="-104" type="line"/>
+      <point x="55" y="-112" type="line"/>
+      <point x="57" y="-110" type="line"/>
+      <point x="57" y="-109" type="line"/>
+      <point x="45" y="-104" type="line"/>
+      <point x="40" y="-100" type="line"/>
+      <point x="35" y="-93" type="line"/>
+      <point x="34" y="-88" type="line"/>
+      <point x="34" y="-84" type="line"/>
+      <point x="36" y="-78" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>29f9a6324d3463323c81d87a26a8f152975c056c7f4a6b521c266a6407c8ecc615f7d15ae67fa1701883ae8f5b6e50b8c81e1cdd53ed9fc87277d6c94857c09f</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

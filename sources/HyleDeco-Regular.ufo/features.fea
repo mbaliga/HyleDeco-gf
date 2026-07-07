@@ -1,0 +1,22 @@
+table GDEF {
+    GlyphClassDef [], [], [], [];
+} GDEF;
+
+
+lookup PairPositioning1 {
+    lookupflag 0;
+    ;
+    pos A T -12;
+    pos A V -10;
+    pos L T -20;
+    pos S T -20;
+    pos T A -12;
+    pos V A -10;
+} PairPositioning1;
+
+feature kern {
+    script DFLT;
+    language dflt;
+            lookup PairPositioning1;
+
+} kern;

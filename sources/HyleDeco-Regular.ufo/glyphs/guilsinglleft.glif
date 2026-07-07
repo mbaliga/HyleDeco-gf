@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglleft" format="2">
+  <advance width="210"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="132" y="393" type="line"/>
+      <point x="118" y="358" type="line"/>
+      <point x="112" y="324" type="line"/>
+      <point x="110" y="308" type="line"/>
+      <point x="110" y="292" type="line"/>
+      <point x="112" y="276" type="line"/>
+      <point x="118" y="242" type="line"/>
+      <point x="132" y="207" type="line"/>
+      <point x="142" y="187" type="line"/>
+      <point x="143" y="181" type="line"/>
+      <point x="142" y="175" type="line"/>
+      <point x="138" y="167" type="line"/>
+      <point x="132" y="162" type="line"/>
+      <point x="91" y="141" type="line"/>
+      <point x="86" y="140" type="line"/>
+      <point x="80" y="140" type="line"/>
+      <point x="74" y="142" type="line"/>
+      <point x="68" y="147" type="line"/>
+      <point x="55" y="172" type="line"/>
+      <point x="45" y="197" type="line"/>
+      <point x="32" y="241" type="line"/>
+      <point x="28" y="263" type="line"/>
+      <point x="26" y="288" type="line"/>
+      <point x="26" y="312" type="line"/>
+      <point x="32" y="359" type="line"/>
+      <point x="38" y="384" type="line"/>
+      <point x="46" y="406" type="line"/>
+      <point x="56" y="428" type="line"/>
+      <point x="68" y="452" type="line"/>
+      <point x="72" y="456" type="line"/>
+      <point x="78" y="459" type="line"/>
+      <point x="84" y="460" type="line"/>
+      <point x="91" y="459" type="line"/>
+      <point x="132" y="438" type="line"/>
+      <point x="138" y="433" type="line"/>
+      <point x="142" y="426" type="line"/>
+      <point x="143" y="417" type="line"/>
+      <point x="141" y="411" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>21cadffdeb4c641a3993994820fbda5480e34f2e5b4a6a5bcab9b92a534ec6862c34d0efd4ddc28e4e4f031988601f733acd39d2c950997b0764ee564fcf3f11</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

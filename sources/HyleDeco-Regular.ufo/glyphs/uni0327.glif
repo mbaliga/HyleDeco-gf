@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0327" format="2">
+  <advance width="40"/>
+  <unicode hex="0327"/>
+  <outline>
+    <contour>
+      <point x="-77" y="-39" type="line"/>
+      <point x="-77" y="4" type="line"/>
+      <point x="-74" y="11" type="line"/>
+      <point x="-68" y="17" type="line"/>
+      <point x="-59" y="20" type="line"/>
+      <point x="-11" y="20" type="line"/>
+      <point x="-2" y="17" type="line"/>
+      <point x="4" y="11" type="line"/>
+      <point x="6" y="6" type="line"/>
+      <point x="7" y="0" type="line"/>
+      <point x="7" y="-70" type="line"/>
+      <point x="6" y="-77" type="line"/>
+      <point x="8" y="-84" type="line"/>
+      <point x="12" y="-110" type="line"/>
+      <point x="12" y="-119" type="line"/>
+      <point x="5" y="-146" type="line"/>
+      <point x="-3" y="-158" type="line"/>
+      <point x="-24" y="-180" type="line"/>
+      <point x="-28" y="-183" type="line"/>
+      <point x="-37" y="-188" type="line"/>
+      <point x="-58" y="-195" type="line"/>
+      <point x="-74" y="-197" type="line"/>
+      <point x="-105" y="-191" type="line"/>
+      <point x="-115" y="-186" type="line"/>
+      <point x="-137" y="-171" type="line"/>
+      <point x="-140" y="-166" type="line"/>
+      <point x="-142" y="-158" type="line"/>
+      <point x="-141" y="-152" type="line"/>
+      <point x="-139" y="-147" type="line"/>
+      <point x="-112" y="-109" type="line"/>
+      <point x="-108" y="-105" type="line"/>
+      <point x="-101" y="-102" type="line"/>
+      <point x="-93" y="-101" type="line"/>
+      <point x="-85" y="-104" type="line"/>
+      <point x="-75" y="-112" type="line"/>
+      <point x="-73" y="-110" type="line"/>
+      <point x="-73" y="-109" type="line"/>
+      <point x="-85" y="-104" type="line"/>
+      <point x="-90" y="-100" type="line"/>
+      <point x="-95" y="-93" type="line"/>
+      <point x="-96" y="-88" type="line"/>
+      <point x="-96" y="-82" type="line"/>
+      <point x="-94" y="-78" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>7d31d763792679a60ea587539c95c3910695202f918eaed4323d614e4746b85367d44f964f78f5b6dd7447ef560b61ff4cb37ff93f86b410c4a5c5d923ea109a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

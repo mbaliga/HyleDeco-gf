@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T" format="2">
+  <advance width="493"/>
+  <unicode hex="0054"/>
+  <outline>
+    <contour>
+      <point x="238" y="637" type="line"/>
+      <point x="12" y="637" type="line"/>
+      <point x="6" y="638" type="line"/>
+      <point x="-2" y="643" type="line"/>
+      <point x="-6" y="648" type="line"/>
+      <point x="-8" y="653" type="line"/>
+      <point x="-8" y="700" type="line"/>
+      <point x="-7" y="706" type="line"/>
+      <point x="-5" y="711" type="line"/>
+      <point x="1" y="717" type="line"/>
+      <point x="6" y="719" type="line"/>
+      <point x="12" y="720" type="line"/>
+      <point x="442" y="720" type="line"/>
+      <point x="448" y="719" type="line"/>
+      <point x="453" y="717" type="line"/>
+      <point x="457" y="713" type="line"/>
+      <point x="460" y="708" type="line"/>
+      <point x="462" y="700" type="line"/>
+      <point x="462" y="655" type="line"/>
+      <point x="459" y="646" type="line"/>
+      <point x="451" y="639" type="line"/>
+      <point x="442" y="637" type="line"/>
+      <point x="321" y="637" type="line"/>
+      <point x="321" y="1" type="line"/>
+      <point x="319" y="-7" type="line"/>
+      <point x="316" y="-12" type="line"/>
+      <point x="310" y="-17" type="line"/>
+      <point x="303" y="-19" type="line"/>
+      <point x="259" y="-19" type="line"/>
+      <point x="253" y="-18" type="line"/>
+      <point x="248" y="-16" type="line"/>
+      <point x="243" y="-11" type="line"/>
+      <point x="240" y="-6" type="line"/>
+      <point x="238" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>961bd5730412cf6920dcab68d23509aab21763a49ed7f6d7bfb38bef7e79430d172e3fd274f61f2d14df656eaf68e032b13cf0c60c7fb736623b45516a1d54c1</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

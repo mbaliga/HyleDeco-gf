@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="223"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="133" y="-3" type="line"/>
+      <point x="131" y="-11" type="line"/>
+      <point x="128" y="-16" type="line"/>
+      <point x="122" y="-21" type="line"/>
+      <point x="117" y="-23" type="line"/>
+      <point x="68" y="-23" type="line"/>
+      <point x="59" y="-20" type="line"/>
+      <point x="53" y="-14" type="line"/>
+      <point x="50" y="-5" type="line"/>
+      <point x="50" y="43" type="line"/>
+      <point x="53" y="52" type="line"/>
+      <point x="61" y="59" type="line"/>
+      <point x="68" y="61" type="line"/>
+      <point x="113" y="61" type="line"/>
+      <point x="118" y="60" type="line"/>
+      <point x="124" y="57" type="line"/>
+      <point x="129" y="51" type="line"/>
+      <point x="133" y="44" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w223l133-3l131-11l128-16l122-21l117-23l68-23l59-20l53-14l50-5l50+43l53+52l61+59l68+61l113+61l118+60l124+57l129+51l133+44|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
