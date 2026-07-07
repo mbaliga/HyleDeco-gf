@@ -1,5 +1,12 @@
 name: Hyle Deco
-repository_url: https://github.com/CONFIRM/hyle-deco   # [CONFIRM] replace with real URL before filing
+repository_url: https://github.com/mbaliga/hyledeco-gf
 branch: main
+category:
+  - DISPLAY
 files:
-  - HyleDeco[wght].ttf   # [CONFIRM] update if shipping variable; currently static Regular only
+  fonts/ttf/HyleDeco-Thin.ttf: HyleDeco-Thin.ttf
+  fonts/ttf/HyleDeco-ThinItalic.ttf: HyleDeco-ThinItalic.ttf
+  fonts/ttf/HyleDeco-Light.ttf: HyleDeco-Light.ttf
+  fonts/ttf/HyleDeco-Regular.ttf: HyleDeco-Regular.ttf
+  fonts/ttf/HyleDeco-Medium.ttf: HyleDeco-Medium.ttf
+  fonts/ttf/HyleDeco-Heavy.ttf: HyleDeco-Heavy.ttf
