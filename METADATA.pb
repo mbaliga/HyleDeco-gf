@@ -3,6 +3,10 @@ designer: "Madhav"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2026-07-09"
+source {
+  repository_url: "https://github.com/mbaliga/hyledeco-gf"
+  branch: "main"
+}
 fonts {
   name: "Hyle Deco"
   style: "normal"
