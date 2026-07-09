@@ -10,7 +10,7 @@ Body:
 **Font family name:** Hyle Deco
 **Designer:** Madhav
 **License:** SIL Open Font License 1.1
-**Upstream repository:** [CONFIRM: real HyleDeco-gf URL]
+**Upstream repository:** https://github.com/mbaliga/hyledeco-gf
 **Styles:** Thin, Thin Italic (static)
 **Glyph coverage:** GF Latin Core, 319 of 319 verified
 
