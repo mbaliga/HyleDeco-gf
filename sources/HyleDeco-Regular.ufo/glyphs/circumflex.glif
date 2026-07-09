@@ -1,36 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflex" format="2">
-  <advance width="282"/>
+  <advance width="242"/>
   <unicode hex="02C6"/>
   <unicode hex="005E"/>
   <outline>
     <contour>
-      <point x="86" y="723" type="line"/>
-      <point x="101" y="736" type="line"/>
-      <point x="116" y="742" type="line"/>
-      <point x="123" y="742" type="line"/>
-      <point x="136" y="739" type="line"/>
-      <point x="147" y="733" type="line"/>
-      <point x="151" y="730" type="line"/>
-      <point x="252" y="581" type="line"/>
-      <point x="254" y="576" type="line"/>
-      <point x="254" y="570" type="line"/>
-      <point x="252" y="564" type="line"/>
-      <point x="248" y="558" type="line"/>
-      <point x="206" y="530" type="line"/>
-      <point x="198" y="528" type="line"/>
-      <point x="189" y="530" type="line"/>
-      <point x="181" y="537" type="line"/>
-      <point x="121" y="625" type="line"/>
-      <point x="61" y="537" type="line"/>
-      <point x="53" y="530" type="line"/>
-      <point x="44" y="528" type="line"/>
-      <point x="36" y="530" type="line"/>
-      <point x="-6" y="558" type="line"/>
-      <point x="-10" y="563" type="line"/>
-      <point x="-12" y="568" type="line"/>
-      <point x="-12" y="576" type="line"/>
-      <point x="-10" y="582" type="line"/>
+      <point x="103" y="712" type="line"/>
+      <point x="111" y="719" type="line"/>
+      <point x="119" y="722" type="line"/>
+      <point x="130" y="720" type="line"/>
+      <point x="137" y="716" type="line"/>
+      <point x="234" y="572" type="line"/>
+      <point x="198" y="548" type="line"/>
+      <point x="121" y="661" type="line"/>
+      <point x="44" y="548" type="line"/>
+      <point x="8" y="572" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -44,7 +28,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>71d9a94ac0ab81383b49b1fa6d3fb0e859751997e8959175ec1ff1574f272913602436395ba83971f528be96ab248a12865e742ea9c1ffb3a478cb4944fdfe6b</string>
+        <string>w242l103+712l111+719l119+722l130+720l137+716l234+572l198+548l121+661l44+548l8+572|</string>
       </dict>
     </dict>
   </lib>

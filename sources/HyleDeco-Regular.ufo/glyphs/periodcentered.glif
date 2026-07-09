@@ -1,29 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered" format="2">
-  <advance width="206"/>
+  <advance width="166"/>
   <unicode hex="00B7"/>
   <outline>
     <contour>
-      <point x="55" y="280" type="line"/>
-      <point x="47" y="282" type="line"/>
-      <point x="42" y="285" type="line"/>
-      <point x="38" y="289" type="line"/>
-      <point x="35" y="296" type="line"/>
-      <point x="35" y="356" type="line"/>
-      <point x="36" y="362" type="line"/>
-      <point x="38" y="367" type="line"/>
-      <point x="46" y="374" type="line"/>
-      <point x="53" y="376" type="line"/>
-      <point x="111" y="376" type="line"/>
-      <point x="117" y="375" type="line"/>
-      <point x="122" y="373" type="line"/>
-      <point x="128" y="367" type="line"/>
-      <point x="131" y="358" type="line"/>
-      <point x="131" y="300" type="line"/>
-      <point x="130" y="294" type="line"/>
-      <point x="128" y="289" type="line"/>
-      <point x="120" y="282" type="line"/>
-      <point x="113" y="280" type="line"/>
+      <point x="55" y="300" type="line"/>
+      <point x="111" y="300" type="line"/>
+      <point x="111" y="356" type="line"/>
+      <point x="55" y="356" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,7 +21,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>8061e38a1d285cf17395defb71a313f65d98ca06124fd6a1b6079691229b4f6e9498670024f6c319eeeda7e3678b06e693fdf06d77f477fddd8913857708900d</string>
+        <string>w166l55+300l111+300l111+356l55+356|</string>
       </dict>
     </dict>
   </lib>

@@ -1,29 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="underscore" format="2">
-  <advance width="550"/>
+  <advance width="510"/>
   <unicode hex="005F"/>
   <outline>
     <contour>
-      <point x="455" y="-38" type="line"/>
-      <point x="463" y="-40" type="line"/>
-      <point x="469" y="-44" type="line"/>
-      <point x="473" y="-50" type="line"/>
-      <point x="475" y="-58" type="line"/>
-      <point x="475" y="-102" type="line"/>
-      <point x="474" y="-108" type="line"/>
-      <point x="469" y="-116" type="line"/>
-      <point x="464" y="-120" type="line"/>
-      <point x="459" y="-122" type="line"/>
-      <point x="55" y="-122" type="line"/>
-      <point x="49" y="-121" type="line"/>
-      <point x="42" y="-117" type="line"/>
-      <point x="37" y="-111" type="line"/>
-      <point x="35" y="-106" type="line"/>
-      <point x="35" y="-54" type="line"/>
-      <point x="37" y="-49" type="line"/>
-      <point x="41" y="-44" type="line"/>
-      <point x="46" y="-40" type="line"/>
-      <point x="51" y="-38" type="line"/>
+      <point x="455" y="-58" type="line"/>
+      <point x="455" y="-102" type="line"/>
+      <point x="55" y="-102" type="line"/>
+      <point x="55" y="-58" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,7 +21,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>4bc4c9933946b63e7ba23588248445f3c8680d60c1956e63acc2c163fa0f3bb725d077fda7741ce922425fc3306a2a71f95332f6df3cc1a2985697829065d062</string>
+        <string>w510l455-58l455-102l55-102l55-58|</string>
       </dict>
     </dict>
   </lib>

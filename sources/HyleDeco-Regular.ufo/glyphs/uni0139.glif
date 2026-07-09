@@ -1,73 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0139" format="2">
-  <advance width="504"/>
+  <advance width="464"/>
   <unicode hex="0139"/>
   <outline>
-    <contour>
-      <point x="63" y="-20" type="line"/>
-      <point x="55" y="-18" type="line"/>
-      <point x="49" y="-14" type="line"/>
-      <point x="43" y="-5" type="line"/>
-      <point x="42" y="2" type="line"/>
-      <point x="42" y="702" type="line"/>
-      <point x="44" y="708" type="line"/>
-      <point x="47" y="713" type="line"/>
-      <point x="51" y="717" type="line"/>
-      <point x="56" y="719" type="line"/>
-      <point x="62" y="720" type="line"/>
-      <point x="107" y="720" type="line"/>
-      <point x="113" y="718" type="line"/>
-      <point x="119" y="714" type="line"/>
-      <point x="123" y="708" type="line"/>
-      <point x="125" y="700" type="line"/>
-      <point x="125" y="64" type="line"/>
-      <point x="456" y="64" type="line"/>
-      <point x="461" y="62" type="line"/>
-      <point x="466" y="58" type="line"/>
-      <point x="470" y="53" type="line"/>
-      <point x="472" y="48" type="line"/>
-      <point x="472" y="-2" type="line"/>
-      <point x="470" y="-8" type="line"/>
-      <point x="466" y="-14" type="line"/>
-      <point x="460" y="-18" type="line"/>
-      <point x="452" y="-20" type="line"/>
-    </contour>
-    <contour>
-      <point x="322" y="791" type="line"/>
-      <point x="327" y="785" type="line"/>
-      <point x="329" y="780" type="line"/>
-      <point x="329" y="772" type="line"/>
-      <point x="325" y="765" type="line"/>
-      <point x="201" y="620" type="line"/>
-      <point x="196" y="617" type="line"/>
-      <point x="191" y="616" type="line"/>
-      <point x="185" y="616" type="line"/>
-      <point x="179" y="619" type="line"/>
-      <point x="140" y="652" type="line"/>
-      <point x="137" y="657" type="line"/>
-      <point x="136" y="662" type="line"/>
-      <point x="137" y="670" type="line"/>
-      <point x="140" y="675" type="line"/>
-      <point x="264" y="820" type="line"/>
-      <point x="272" y="824" type="line"/>
-      <point x="278" y="824" type="line"/>
-      <point x="284" y="822" type="line"/>
-      <point x="289" y="819" type="line"/>
-    </contour>
+    <component base="L" identifier="component0"/>
+    <component base="acute" xOffset="148" yOffset="90" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>9b86a667dea0b41626bf2714c2ea5ecbaf1f15624e50ee596f48623418625f0cee5ed07d91f6ea0bffd3aeb168bb0a4c799f156485bddf44dd09a2f65459df5c</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

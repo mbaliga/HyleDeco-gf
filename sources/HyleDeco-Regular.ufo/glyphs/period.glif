@@ -1,27 +1,77 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="period" format="2">
-  <advance width="223"/>
+  <advance width="183"/>
   <unicode hex="002E"/>
   <outline>
     <contour>
-      <point x="133" y="-3" type="line"/>
-      <point x="131" y="-11" type="line"/>
-      <point x="128" y="-16" type="line"/>
-      <point x="122" y="-21" type="line"/>
-      <point x="117" y="-23" type="line"/>
-      <point x="68" y="-23" type="line"/>
-      <point x="59" y="-20" type="line"/>
-      <point x="53" y="-14" type="line"/>
-      <point x="50" y="-5" type="line"/>
-      <point x="50" y="43" type="line"/>
-      <point x="53" y="52" type="line"/>
-      <point x="61" y="59" type="line"/>
-      <point x="68" y="61" type="line"/>
-      <point x="113" y="61" type="line"/>
-      <point x="118" y="60" type="line"/>
-      <point x="124" y="57" type="line"/>
-      <point x="129" y="51" type="line"/>
-      <point x="133" y="44" type="line"/>
+      <point x="113" y="-3" type="line"/>
+      <point x="110" y="-3" type="line"/>
+      <point x="108" y="-3" type="line"/>
+      <point x="105" y="-3" type="line"/>
+      <point x="102" y="-3" type="line"/>
+      <point x="100" y="-3" type="line"/>
+      <point x="97" y="-3" type="line"/>
+      <point x="95" y="-3" type="line"/>
+      <point x="92" y="-3" type="line"/>
+      <point x="90" y="-3" type="line"/>
+      <point x="87" y="-3" type="line"/>
+      <point x="85" y="-3" type="line"/>
+      <point x="82" y="-3" type="line"/>
+      <point x="79" y="-3" type="line"/>
+      <point x="77" y="-3" type="line"/>
+      <point x="74" y="-3" type="line"/>
+      <point x="72" y="-3" type="line"/>
+      <point x="70" y="-3" type="line"/>
+      <point x="70" y="0" type="line"/>
+      <point x="70" y="3" type="line"/>
+      <point x="70" y="5" type="line"/>
+      <point x="70" y="8" type="line"/>
+      <point x="70" y="10" type="line"/>
+      <point x="70" y="13" type="line"/>
+      <point x="70" y="15" type="line"/>
+      <point x="70" y="18" type="line"/>
+      <point x="70" y="21" type="line"/>
+      <point x="70" y="23" type="line"/>
+      <point x="70" y="26" type="line"/>
+      <point x="70" y="28" type="line"/>
+      <point x="70" y="31" type="line"/>
+      <point x="70" y="33" type="line"/>
+      <point x="70" y="36" type="line"/>
+      <point x="70" y="38" type="line"/>
+      <point x="70" y="41" type="line"/>
+      <point x="73" y="41" type="line"/>
+      <point x="75" y="41" type="line"/>
+      <point x="78" y="41" type="line"/>
+      <point x="80" y="41" type="line"/>
+      <point x="83" y="41" type="line"/>
+      <point x="85" y="41" type="line"/>
+      <point x="88" y="41" type="line"/>
+      <point x="91" y="41" type="line"/>
+      <point x="93" y="41" type="line"/>
+      <point x="96" y="41" type="line"/>
+      <point x="98" y="41" type="line"/>
+      <point x="101" y="41" type="line"/>
+      <point x="103" y="41" type="line"/>
+      <point x="106" y="41" type="line"/>
+      <point x="108" y="41" type="line"/>
+      <point x="111" y="41" type="line"/>
+      <point x="113" y="40" type="line"/>
+      <point x="113" y="38" type="line"/>
+      <point x="113" y="35" type="line"/>
+      <point x="113" y="32" type="line"/>
+      <point x="113" y="30" type="line"/>
+      <point x="113" y="27" type="line"/>
+      <point x="113" y="25" type="line"/>
+      <point x="113" y="22" type="line"/>
+      <point x="113" y="20" type="line"/>
+      <point x="113" y="17" type="line"/>
+      <point x="113" y="15" type="line"/>
+      <point x="113" y="12" type="line"/>
+      <point x="113" y="9" type="line"/>
+      <point x="113" y="7" type="line"/>
+      <point x="113" y="4" type="line"/>
+      <point x="113" y="2" type="line"/>
+      <point x="113" y="-1" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -35,7 +85,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>w223l133-3l131-11l128-16l122-21l117-23l68-23l59-20l53-14l50-5l50+43l53+52l61+59l68+61l113+61l118+60l124+57l129+51l133+44|</string>
+        <string>827eacd2272f9c6fa77ac7f2272937564a048cdfb3741359300e24300d3f7302bbd6758bd995b18da46010c41b89ea8de031610c7f0b88f3b9835de877a15a3f</string>
       </dict>
     </dict>
   </lib>

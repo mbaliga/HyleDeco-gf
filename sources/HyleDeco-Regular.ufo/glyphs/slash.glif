@@ -1,31 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="slash" format="2">
-  <advance width="440"/>
+  <advance width="400"/>
   <unicode hex="002F"/>
   <outline>
     <contour>
-      <point x="101" y="-8" type="line"/>
-      <point x="95" y="-16" type="line"/>
-      <point x="86" y="-20" type="line"/>
-      <point x="47" y="-19" type="line"/>
-      <point x="39" y="-15" type="line"/>
-      <point x="33" y="-10" type="line"/>
-      <point x="30" y="-1" type="line"/>
-      <point x="30" y="35" type="line"/>
-      <point x="31" y="41" type="line"/>
-      <point x="301" y="708" type="line"/>
-      <point x="307" y="715" type="line"/>
-      <point x="316" y="720" type="line"/>
-      <point x="349" y="720" type="line"/>
-      <point x="355" y="719" type="line"/>
-      <point x="360" y="717" type="line"/>
-      <point x="364" y="713" type="line"/>
-      <point x="369" y="704" type="line"/>
-      <point x="370" y="658" type="line"/>
-      <point x="369" y="651" type="line"/>
-      <point x="138" y="79" type="line"/>
-      <point x="134" y="72" type="line"/>
-      <point x="117" y="28" type="line"/>
+      <point x="83" y="0" type="line"/>
+      <point x="50" y="1" type="line"/>
+      <point x="50" y="32" type="line"/>
+      <point x="50" y="35" type="line"/>
+      <point x="319" y="699" type="line"/>
+      <point x="320" y="700" type="line"/>
+      <point x="349" y="700" type="line"/>
+      <point x="350" y="658" type="line"/>
+      <point x="119" y="86" type="line"/>
+      <point x="116" y="81" type="line"/>
+      <point x="98" y="35" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -39,7 +28,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>1288cd11c4fc01615b4d219e2c3e88af9fc969ab7dea1debfe157344a11469081a876ea4ad4a27c123ac506be59e6741e2188295e6a8a496c6c0a24112e5e48c</string>
+        <string>w400l83+0l50+1l50+32l50+35l319+699l320+700l349+700l350+658l119+86l116+81l98+35|</string>
       </dict>
     </dict>
   </lib>

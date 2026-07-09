@@ -1,47 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonek" format="2">
-  <advance width="165"/>
+  <advance width="125"/>
   <unicode hex="02DB"/>
   <outline>
     <contour>
-      <point x="78" y="-29" type="line"/>
-      <point x="74" y="-32" type="line"/>
-      <point x="72" y="-38" type="line"/>
-      <point x="72" y="-43" type="line"/>
-      <point x="75" y="-48" type="line"/>
-      <point x="79" y="-51" type="line"/>
-      <point x="85" y="-52" type="line"/>
-      <point x="102" y="-47" type="line"/>
-      <point x="107" y="-47" type="line"/>
-      <point x="116" y="-51" type="line"/>
-      <point x="123" y="-58" type="line"/>
-      <point x="138" y="-107" type="line"/>
-      <point x="138" y="-113" type="line"/>
-      <point x="136" y="-119" type="line"/>
-      <point x="132" y="-123" type="line"/>
-      <point x="127" y="-127" type="line"/>
-      <point x="89" y="-137" type="line"/>
-      <point x="56" y="-133" type="line"/>
-      <point x="45" y="-129" type="line"/>
-      <point x="12" y="-106" type="line"/>
-      <point x="9" y="-102" type="line"/>
-      <point x="-7" y="-73" type="line"/>
-      <point x="-11" y="-60" type="line"/>
-      <point x="-12" y="-23" type="line"/>
-      <point x="-8" y="-12" type="line"/>
-      <point x="6" y="17" type="line"/>
-      <point x="13" y="25" type="line"/>
-      <point x="39" y="46" type="line"/>
-      <point x="44" y="48" type="line"/>
-      <point x="78" y="56" type="line"/>
-      <point x="84" y="55" type="line"/>
-      <point x="90" y="53" type="line"/>
-      <point x="94" y="49" type="line"/>
-      <point x="97" y="44" type="line"/>
-      <point x="109" y="-5" type="line"/>
-      <point x="107" y="-15" type="line"/>
-      <point x="101" y="-22" type="line"/>
-      <point x="96" y="-25" type="line"/>
+      <point x="69" y="-11" type="line"/>
+      <point x="58" y="-20" type="line"/>
+      <point x="52" y="-34" type="line"/>
+      <point x="52" y="-48" type="line"/>
+      <point x="59" y="-61" type="line"/>
+      <point x="71" y="-70" type="line"/>
+      <point x="86" y="-72" type="line"/>
+      <point x="105" y="-67" type="line"/>
+      <point x="118" y="-109" type="line"/>
+      <point x="88" y="-117" type="line"/>
+      <point x="59" y="-113" type="line"/>
+      <point x="53" y="-111" type="line"/>
+      <point x="26" y="-92" type="line"/>
+      <point x="11" y="-65" type="line"/>
+      <point x="9" y="-57" type="line"/>
+      <point x="8" y="-26" type="line"/>
+      <point x="10" y="-20" type="line"/>
+      <point x="22" y="6" type="line"/>
+      <point x="26" y="10" type="line"/>
+      <point x="49" y="29" type="line"/>
+      <point x="79" y="36" type="line"/>
+      <point x="89" y="-6" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +39,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>5e5a0bb67e0bdb56d733045713cd31e6c6211b3b9fb3b4b00d4efe99c676c9588ca541db5e9409cc980da99619bb1c9c29d4f304b21beaa4d4edcf665b609a46</string>
+        <string>855337b449a93cf79bd7788efca62c5978bf6004464c00012ebd39330e00b6fccdedaf6ef13472a00e4ebacc5ce92771f0eb81ebfc8d5113d7e8cd8b8c3d2569</string>
       </dict>
     </dict>
   </lib>

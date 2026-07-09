@@ -1,70 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni013C" format="2">
-  <advance width="206"/>
+  <advance width="166"/>
   <unicode hex="013C"/>
   <outline>
-    <contour>
-      <point x="41" y="700" type="line"/>
-      <point x="43" y="708" type="line"/>
-      <point x="47" y="714" type="line"/>
-      <point x="53" y="718" type="line"/>
-      <point x="61" y="720" type="line"/>
-      <point x="105" y="720" type="line"/>
-      <point x="111" y="719" type="line"/>
-      <point x="116" y="717" type="line"/>
-      <point x="120" y="713" type="line"/>
-      <point x="123" y="708" type="line"/>
-      <point x="125" y="702" type="line"/>
-      <point x="125" y="0" type="line"/>
-      <point x="123" y="-8" type="line"/>
-      <point x="119" y="-14" type="line"/>
-      <point x="113" y="-18" type="line"/>
-      <point x="107" y="-20" type="line"/>
-      <point x="61" y="-20" type="line"/>
-      <point x="55" y="-19" type="line"/>
-      <point x="50" y="-17" type="line"/>
-      <point x="46" y="-13" type="line"/>
-      <point x="43" y="-8" type="line"/>
-      <point x="41" y="-2" type="line"/>
-    </contour>
-    <contour>
-      <point x="80" y="-195" type="line"/>
-      <point x="76" y="-200" type="line"/>
-      <point x="72" y="-203" type="line"/>
-      <point x="66" y="-206" type="line"/>
-      <point x="60" y="-206" type="line"/>
-      <point x="55" y="-205" type="line"/>
-      <point x="49" y="-202" type="line"/>
-      <point x="45" y="-197" type="line"/>
-      <point x="43" y="-192" type="line"/>
-      <point x="42" y="-186" type="line"/>
-      <point x="42" y="-54" type="line"/>
-      <point x="44" y="-49" type="line"/>
-      <point x="48" y="-44" type="line"/>
-      <point x="53" y="-40" type="line"/>
-      <point x="58" y="-38" type="line"/>
-      <point x="109" y="-38" type="line"/>
-      <point x="114" y="-40" type="line"/>
-      <point x="119" y="-44" type="line"/>
-      <point x="123" y="-49" type="line"/>
-      <point x="125" y="-54" type="line"/>
-      <point x="125" y="-105" type="line"/>
-      <point x="121" y="-115" type="line"/>
-    </contour>
+    <component base="l" identifier="component0"/>
+    <component base="commaaccent" xOffset="54" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>4b5a1a874287b6fc14395d8b6616843aef97242dc4f3f29d35719ca5bb813c38a25302b016989539a76435f0b5c2fa562bcfdd00171b0b830214cc5ba92fbf0f</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

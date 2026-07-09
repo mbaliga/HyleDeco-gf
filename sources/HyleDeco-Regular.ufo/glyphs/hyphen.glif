@@ -1,31 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen" format="2">
-  <advance width="480"/>
+  <advance width="440"/>
   <unicode hex="002D"/>
   <outline>
     <contour>
-      <point x="60" y="374" type="line"/>
-      <point x="62" y="382" type="line"/>
-      <point x="66" y="388" type="line"/>
-      <point x="72" y="392" type="line"/>
-      <point x="78" y="394" type="line"/>
-      <point x="362" y="394" type="line"/>
-      <point x="368" y="392" type="line"/>
-      <point x="373" y="389" type="line"/>
-      <point x="377" y="385" type="line"/>
-      <point x="379" y="380" type="line"/>
-      <point x="380" y="374" type="line"/>
-      <point x="380" y="328" type="line"/>
-      <point x="378" y="322" type="line"/>
-      <point x="374" y="316" type="line"/>
-      <point x="368" y="312" type="line"/>
-      <point x="362" y="310" type="line"/>
-      <point x="78" y="310" type="line"/>
-      <point x="72" y="312" type="line"/>
-      <point x="67" y="315" type="line"/>
-      <point x="63" y="319" type="line"/>
-      <point x="61" y="324" type="line"/>
-      <point x="60" y="330" type="line"/>
+      <point x="80" y="374" type="line"/>
+      <point x="360" y="374" type="line"/>
+      <point x="360" y="330" type="line"/>
+      <point x="80" y="330" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -39,7 +21,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>4f1f0ffbdcf79a85f846b933e28d7243f5fc81dcf3088b0ad9a60980ebb74cca0a2e1524be20dafe28aca9d714de429bca4f8a4a88fbcf03a0d24d81375b74c9</string>
+        <string>w440l80+374l360+374l360+330l80+330|</string>
       </dict>
     </dict>
   </lib>

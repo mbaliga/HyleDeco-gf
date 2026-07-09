@@ -1,82 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni021A" format="2">
-  <advance width="493"/>
+  <advance width="453"/>
   <unicode hex="021A"/>
   <outline>
-    <contour>
-      <point x="238" y="637" type="line"/>
-      <point x="12" y="637" type="line"/>
-      <point x="6" y="638" type="line"/>
-      <point x="-2" y="643" type="line"/>
-      <point x="-6" y="648" type="line"/>
-      <point x="-8" y="653" type="line"/>
-      <point x="-8" y="700" type="line"/>
-      <point x="-7" y="706" type="line"/>
-      <point x="-5" y="711" type="line"/>
-      <point x="1" y="717" type="line"/>
-      <point x="6" y="719" type="line"/>
-      <point x="12" y="720" type="line"/>
-      <point x="442" y="720" type="line"/>
-      <point x="448" y="719" type="line"/>
-      <point x="453" y="717" type="line"/>
-      <point x="457" y="713" type="line"/>
-      <point x="460" y="708" type="line"/>
-      <point x="462" y="700" type="line"/>
-      <point x="462" y="655" type="line"/>
-      <point x="459" y="646" type="line"/>
-      <point x="451" y="639" type="line"/>
-      <point x="442" y="637" type="line"/>
-      <point x="321" y="637" type="line"/>
-      <point x="321" y="1" type="line"/>
-      <point x="319" y="-7" type="line"/>
-      <point x="316" y="-12" type="line"/>
-      <point x="310" y="-17" type="line"/>
-      <point x="303" y="-19" type="line"/>
-      <point x="259" y="-19" type="line"/>
-      <point x="253" y="-18" type="line"/>
-      <point x="248" y="-16" type="line"/>
-      <point x="243" y="-11" type="line"/>
-      <point x="240" y="-6" type="line"/>
-      <point x="238" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="223" y="-195" type="line"/>
-      <point x="219" y="-200" type="line"/>
-      <point x="215" y="-203" type="line"/>
-      <point x="209" y="-206" type="line"/>
-      <point x="203" y="-206" type="line"/>
-      <point x="198" y="-205" type="line"/>
-      <point x="192" y="-202" type="line"/>
-      <point x="188" y="-197" type="line"/>
-      <point x="186" y="-192" type="line"/>
-      <point x="185" y="-186" type="line"/>
-      <point x="185" y="-54" type="line"/>
-      <point x="187" y="-49" type="line"/>
-      <point x="191" y="-44" type="line"/>
-      <point x="196" y="-40" type="line"/>
-      <point x="201" y="-38" type="line"/>
-      <point x="252" y="-38" type="line"/>
-      <point x="257" y="-40" type="line"/>
-      <point x="262" y="-44" type="line"/>
-      <point x="266" y="-49" type="line"/>
-      <point x="268" y="-54" type="line"/>
-      <point x="268" y="-105" type="line"/>
-      <point x="264" y="-115" type="line"/>
-    </contour>
+    <component base="T" identifier="component0"/>
+    <component base="commaaccent" xOffset="197" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>c2f1b200d03d81f156705a8bb71c0e4ef622464bf80c32d33fdabae0eb67736a574d6f8c540fcf6311e9084830dcd1abf53b6ac3cd1e19fd4c2f27b5e64b8fc4</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

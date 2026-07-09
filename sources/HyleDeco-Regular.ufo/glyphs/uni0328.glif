@@ -1,62 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0328" format="2">
-  <advance width="40"/>
   <unicode hex="0328"/>
   <outline>
-    <contour>
-      <point x="-47" y="-29" type="line"/>
-      <point x="-51" y="-32" type="line"/>
-      <point x="-53" y="-38" type="line"/>
-      <point x="-53" y="-43" type="line"/>
-      <point x="-50" y="-48" type="line"/>
-      <point x="-46" y="-51" type="line"/>
-      <point x="-40" y="-52" type="line"/>
-      <point x="-23" y="-47" type="line"/>
-      <point x="-18" y="-47" type="line"/>
-      <point x="-9" y="-51" type="line"/>
-      <point x="-2" y="-58" type="line"/>
-      <point x="13" y="-107" type="line"/>
-      <point x="13" y="-113" type="line"/>
-      <point x="11" y="-119" type="line"/>
-      <point x="7" y="-123" type="line"/>
-      <point x="2" y="-127" type="line"/>
-      <point x="-36" y="-137" type="line"/>
-      <point x="-69" y="-133" type="line"/>
-      <point x="-80" y="-129" type="line"/>
-      <point x="-113" y="-106" type="line"/>
-      <point x="-116" y="-102" type="line"/>
-      <point x="-132" y="-73" type="line"/>
-      <point x="-136" y="-60" type="line"/>
-      <point x="-137" y="-23" type="line"/>
-      <point x="-133" y="-12" type="line"/>
-      <point x="-119" y="17" type="line"/>
-      <point x="-112" y="25" type="line"/>
-      <point x="-86" y="46" type="line"/>
-      <point x="-81" y="48" type="line"/>
-      <point x="-47" y="56" type="line"/>
-      <point x="-41" y="55" type="line"/>
-      <point x="-35" y="53" type="line"/>
-      <point x="-31" y="49" type="line"/>
-      <point x="-28" y="44" type="line"/>
-      <point x="-16" y="-5" type="line"/>
-      <point x="-18" y="-15" type="line"/>
-      <point x="-24" y="-22" type="line"/>
-      <point x="-29" y="-25" type="line"/>
-    </contour>
+    <component base="ogonek" xOffset="-125" identifier="component0"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>ad75487d7523018724ffe0afe74992bde983da60536e601ee5d4cf684666ccc7d94c6fb1458287e4ce4725b67c58a1f917beecdcdcf7fa0c6111295103e8b54d</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

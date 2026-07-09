@@ -1,0 +1,457 @@
+Start ... running 1331 individual check executions.
+ >> fontdata_namecheck
+    Familyname must be unique according to namecheck.fontdata.com
+    with HyleDeco-Heavy.ttf
+
+    Rationale:                                                                
+                                                                                
+    We need to check names are not already used, and today the best place to    
+    check that is http://namecheck.fontdata.com                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/494
+
+    ERROR Failed to access: https://namecheck.fontdata.com/api/?q=HyleDeco.     
+         This check relies on the external service                              
+         http://namecheck.fontdata.com via the internet. While the service      
+         cannot be reached or does not respond this check is broken.            
+                                                                                
+                                                                                
+              You can exclude this check with the command line option:          
+              -x fontdata_namecheck                                             
+                                                                                
+              Or you can wait until the service is available again.             
+              If the problem persists please report this issue at:              
+          https://github.com/fonttools/fontbakery/issues                        
+                                                                                
+              Original error message:                                           
+              <class 'requests.exceptions.JSONDecodeError'> [code:              
+          namecheck-service]                                                    
+                                                                                
+
+    Result: ERROR
+
+ >> fontdata_namecheck
+    Familyname must be unique according to namecheck.fontdata.com
+    with HyleDeco-Light.ttf
+
+    Rationale:                                                                
+                                                                                
+    We need to check names are not already used, and today the best place to    
+    check that is http://namecheck.fontdata.com                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/494
+
+    ERROR Failed to access: https://namecheck.fontdata.com/api/?q=HyleDeco.     
+         This check relies on the external service                              
+         http://namecheck.fontdata.com via the internet. While the service      
+         cannot be reached or does not respond this check is broken.            
+                                                                                
+                                                                                
+              You can exclude this check with the command line option:          
+              -x fontdata_namecheck                                             
+                                                                                
+              Or you can wait until the service is available again.             
+              If the problem persists please report this issue at:              
+          https://github.com/fonttools/fontbakery/issues                        
+                                                                                
+              Original error message:                                           
+              <class 'requests.exceptions.JSONDecodeError'> [code:              
+          namecheck-service]                                                    
+                                                                                
+
+    Result: ERROR
+
+ >> fontdata_namecheck
+    Familyname must be unique according to namecheck.fontdata.com
+    with HyleDeco-Medium.ttf
+
+    Rationale:                                                                
+                                                                                
+    We need to check names are not already used, and today the best place to    
+    check that is http://namecheck.fontdata.com                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/494
+
+    ERROR Failed to access: https://namecheck.fontdata.com/api/?q=HyleDeco.     
+         This check relies on the external service                              
+         http://namecheck.fontdata.com via the internet. While the service      
+         cannot be reached or does not respond this check is broken.            
+                                                                                
+                                                                                
+              You can exclude this check with the command line option:          
+              -x fontdata_namecheck                                             
+                                                                                
+              Or you can wait until the service is available again.             
+              If the problem persists please report this issue at:              
+          https://github.com/fonttools/fontbakery/issues                        
+                                                                                
+              Original error message:                                           
+              <class 'requests.exceptions.JSONDecodeError'> [code:              
+          namecheck-service]                                                    
+                                                                                
+
+    Result: ERROR
+
+ >> fontdata_namecheck
+    Familyname must be unique according to namecheck.fontdata.com
+    with HyleDeco-Regular.ttf
+
+    Rationale:                                                                
+                                                                                
+    We need to check names are not already used, and today the best place to    
+    check that is http://namecheck.fontdata.com                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/494
+
+    ERROR Failed to access: https://namecheck.fontdata.com/api/?q=HyleDeco.     
+         This check relies on the external service                              
+         http://namecheck.fontdata.com via the internet. While the service      
+         cannot be reached or does not respond this check is broken.            
+                                                                                
+                                                                                
+              You can exclude this check with the command line option:          
+              -x fontdata_namecheck                                             
+                                                                                
+              Or you can wait until the service is available again.             
+              If the problem persists please report this issue at:              
+          https://github.com/fonttools/fontbakery/issues                        
+                                                                                
+              Original error message:                                           
+              <class 'requests.exceptions.JSONDecodeError'> [code:              
+          namecheck-service]                                                    
+                                                                                
+
+    Result: ERROR
+
+ >> fontdata_namecheck
+    Familyname must be unique according to namecheck.fontdata.com
+    with HyleDeco-Thin.ttf
+
+    Rationale:                                                                
+                                                                                
+    We need to check names are not already used, and today the best place to    
+    check that is http://namecheck.fontdata.com                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/494
+
+    ERROR Failed to access: https://namecheck.fontdata.com/api/?q=HyleDeco.     
+         This check relies on the external service                              
+         http://namecheck.fontdata.com via the internet. While the service      
+         cannot be reached or does not respond this check is broken.            
+                                                                                
+                                                                                
+              You can exclude this check with the command line option:          
+              -x fontdata_namecheck                                             
+                                                                                
+              Or you can wait until the service is available again.             
+              If the problem persists please report this issue at:              
+          https://github.com/fonttools/fontbakery/issues                        
+                                                                                
+              Original error message:                                           
+              <class 'requests.exceptions.JSONDecodeError'> [code:              
+          namecheck-service]                                                    
+                                                                                
+
+    Result: ERROR
+
+ >> fontdata_namecheck
+    Familyname must be unique according to namecheck.fontdata.com
+    with HyleDeco-ThinItalic.ttf
+
+    Rationale:                                                                
+                                                                                
+    We need to check names are not already used, and today the best place to    
+    check that is http://namecheck.fontdata.com                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/494
+
+    ERROR Failed to access: https://namecheck.fontdata.com/api/?q=HyleDeco.     
+         This check relies on the external service                              
+         http://namecheck.fontdata.com via the internet. While the service      
+         cannot be reached or does not respond this check is broken.            
+                                                                                
+                                                                                
+              You can exclude this check with the command line option:          
+              -x fontdata_namecheck                                             
+                                                                                
+              Or you can wait until the service is available again.             
+              If the problem persists please report this issue at:              
+          https://github.com/fonttools/fontbakery/issues                        
+                                                                                
+              Original error message:                                           
+              <class 'requests.exceptions.JSONDecodeError'> [code:              
+          namecheck-service]                                                    
+                                                                                
+
+    Result: ERROR
+
+ >> googlefonts/metadata/includes_production_subsets
+    Check METADATA.pb includes production subsets.
+    with HyleDeco-Heavy.ttf
+
+    Rationale:                                                                
+                                                                                
+    Check METADATA.pb file includes the same subsets as the family in           
+    production.                                                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2989
+
+    ERROR Failed with JSONDecodeError: Expecting value: line 1 column 1 (char   
+         0)                                                                     
+                                                                                
+                                                                                
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 152, in _get_check_dependencies                                
+              val = bool(self._get(name, identity.iterargs, condition=True))    
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 125, in _get                                                   
+              return getattr(self.context, name)                                
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                
+            File "/usr/lib/python3.12/functools.py", line 995, in __get__       
+              val = self.func(instance)                                         
+                    ^^^^^^^^^^^^^^^^^^^                                         
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checks/vendorsp   
+          ecific/googlefonts/conditions.py", line 487, in production_metadata   
+              return requests.get(meta_url,                                     
+          timeout=context.config.get("timeout")).json()                         
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+          ^^^^^^^^^^^^                                                          
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/requests/models.py", line    
+          982, in json                                                          
+              raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)                
+                                                                                
+          ``` [code: error]                                                     
+                                                                                
+
+    Result: ERROR
+
+ >> googlefonts/metadata/includes_production_subsets
+    Check METADATA.pb includes production subsets.
+    with HyleDeco-Light.ttf
+
+    Rationale:                                                                
+                                                                                
+    Check METADATA.pb file includes the same subsets as the family in           
+    production.                                                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2989
+
+    ERROR Failed with JSONDecodeError: Expecting value: line 1 column 1 (char   
+         0)                                                                     
+                                                                                
+                                                                                
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 152, in _get_check_dependencies                                
+              val = bool(self._get(name, identity.iterargs, condition=True))    
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 125, in _get                                                   
+              return getattr(self.context, name)                                
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                
+            File "/usr/lib/python3.12/functools.py", line 995, in __get__       
+              val = self.func(instance)                                         
+                    ^^^^^^^^^^^^^^^^^^^                                         
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checks/vendorsp   
+          ecific/googlefonts/conditions.py", line 487, in production_metadata   
+              return requests.get(meta_url,                                     
+          timeout=context.config.get("timeout")).json()                         
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+          ^^^^^^^^^^^^                                                          
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/requests/models.py", line    
+          982, in json                                                          
+              raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)                
+                                                                                
+          ``` [code: error]                                                     
+                                                                                
+
+    Result: ERROR
+
+ >> googlefonts/metadata/includes_production_subsets
+    Check METADATA.pb includes production subsets.
+    with HyleDeco-Medium.ttf
+
+    Rationale:                                                                
+                                                                                
+    Check METADATA.pb file includes the same subsets as the family in           
+    production.                                                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2989
+
+    ERROR Failed with JSONDecodeError: Expecting value: line 1 column 1 (char   
+         0)                                                                     
+                                                                                
+                                                                                
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 152, in _get_check_dependencies                                
+              val = bool(self._get(name, identity.iterargs, condition=True))    
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 125, in _get                                                   
+              return getattr(self.context, name)                                
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                
+            File "/usr/lib/python3.12/functools.py", line 995, in __get__       
+              val = self.func(instance)                                         
+                    ^^^^^^^^^^^^^^^^^^^                                         
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checks/vendorsp   
+          ecific/googlefonts/conditions.py", line 487, in production_metadata   
+              return requests.get(meta_url,                                     
+          timeout=context.config.get("timeout")).json()                         
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+          ^^^^^^^^^^^^                                                          
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/requests/models.py", line    
+          982, in json                                                          
+              raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)                
+                                                                                
+          ``` [code: error]                                                     
+                                                                                
+
+    Result: ERROR
+
+ >> googlefonts/metadata/includes_production_subsets
+    Check METADATA.pb includes production subsets.
+    with HyleDeco-Regular.ttf
+
+    Rationale:                                                                
+                                                                                
+    Check METADATA.pb file includes the same subsets as the family in           
+    production.                                                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2989
+
+    ERROR Failed with JSONDecodeError: Expecting value: line 1 column 1 (char   
+         0)                                                                     
+                                                                                
+                                                                                
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 152, in _get_check_dependencies                                
+              val = bool(self._get(name, identity.iterargs, condition=True))    
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 125, in _get                                                   
+              return getattr(self.context, name)                                
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                
+            File "/usr/lib/python3.12/functools.py", line 995, in __get__       
+              val = self.func(instance)                                         
+                    ^^^^^^^^^^^^^^^^^^^                                         
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checks/vendorsp   
+          ecific/googlefonts/conditions.py", line 487, in production_metadata   
+              return requests.get(meta_url,                                     
+          timeout=context.config.get("timeout")).json()                         
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+          ^^^^^^^^^^^^                                                          
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/requests/models.py", line    
+          982, in json                                                          
+              raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)                
+                                                                                
+          ``` [code: error]                                                     
+                                                                                
+
+    Result: ERROR
+
+ >> googlefonts/metadata/includes_production_subsets
+    Check METADATA.pb includes production subsets.
+    with HyleDeco-Thin.ttf
+
+    Rationale:                                                                
+                                                                                
+    Check METADATA.pb file includes the same subsets as the family in           
+    production.                                                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2989
+
+    ERROR Failed with JSONDecodeError: Expecting value: line 1 column 1 (char   
+         0)                                                                     
+                                                                                
+                                                                                
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 152, in _get_check_dependencies                                
+              val = bool(self._get(name, identity.iterargs, condition=True))    
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 125, in _get                                                   
+              return getattr(self.context, name)                                
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                
+            File "/usr/lib/python3.12/functools.py", line 995, in __get__       
+              val = self.func(instance)                                         
+                    ^^^^^^^^^^^^^^^^^^^                                         
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checks/vendorsp   
+          ecific/googlefonts/conditions.py", line 487, in production_metadata   
+              return requests.get(meta_url,                                     
+          timeout=context.config.get("timeout")).json()                         
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+          ^^^^^^^^^^^^                                                          
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/requests/models.py", line    
+          982, in json                                                          
+              raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)                
+                                                                                
+          ``` [code: error]                                                     
+                                                                                
+
+    Result: ERROR
+
+ >> googlefonts/metadata/includes_production_subsets
+    Check METADATA.pb includes production subsets.
+    with HyleDeco-ThinItalic.ttf
+
+    Rationale:                                                                
+                                                                                
+    Check METADATA.pb file includes the same subsets as the family in           
+    production.                                                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2989
+
+    ERROR Failed with JSONDecodeError: Expecting value: line 1 column 1 (char   
+         0)                                                                     
+                                                                                
+                                                                                
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 152, in _get_check_dependencies                                
+              val = bool(self._get(name, identity.iterargs, condition=True))    
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checkrunner.py"   
+          , line 125, in _get                                                   
+              return getattr(self.context, name)                                
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                
+            File "/usr/lib/python3.12/functools.py", line 995, in __get__       
+              val = self.func(instance)                                         
+                    ^^^^^^^^^^^^^^^^^^^                                         
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/fontbakery/checks/vendorsp   
+          ecific/googlefonts/conditions.py", line 487, in production_metadata   
+              return requests.get(meta_url,                                     
+          timeout=context.config.get("timeout")).json()                         
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+          ^^^^^^^^^^^^                                                          
+            File                                                                
+          "/usr/local/lib/python3.12/dist-packages/requests/models.py", line    
+          982, in json                                                          
+              raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)                
+                                                                                
+          ``` [code: error]                                                     
+                                                                                
+
+    Result: ERROR
+

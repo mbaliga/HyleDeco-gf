@@ -82,6 +82,8 @@
     <string>c.glif</string>
     <key>caron</key>
     <string>caron.glif</string>
+    <key>caronalt</key>
+    <string>caronalt.glif</string>
     <key>cedilla</key>
     <string>cedilla.glif</string>
     <key>cent</key>
@@ -92,6 +94,10 @@
     <string>colon.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
+    <key>commaaccent</key>
+    <string>commaaccent.glif</string>
+    <key>commaturned</key>
+    <string>commaturned.glif</string>
     <key>d</key>
     <string>d.glif</string>
     <key>degree</key>
@@ -108,6 +114,8 @@
     <string>e.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>eight.tf</key>
+    <string>eight.tf.glif</string>
     <key>ellipsis</key>
     <string>ellipsis.glif</string>
     <key>emdash</key>
@@ -122,12 +130,18 @@
     <string>f.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>five.tf</key>
+    <string>five.tf.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>four.tf</key>
+    <string>four.tf.glif</string>
     <key>g</key>
     <string>g.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
+    <key>greater</key>
+    <string>greater.glif</string>
     <key>guillemotleft</key>
     <string>guillemotleft.glif</string>
     <key>guillemotright</key>
@@ -150,6 +164,8 @@
     <string>k.glif</string>
     <key>l</key>
     <string>l.glif</string>
+    <key>less</key>
+    <string>less.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>macron</key>
@@ -178,12 +194,18 @@
     <string>n.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>nine.tf</key>
+    <string>nine.tf.glif</string>
+    <key>numbersign</key>
+    <string>numbersign.glif</string>
     <key>o</key>
     <string>o.glif</string>
     <key>ogonek</key>
     <string>ogonek.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>one.tf</key>
+    <string>one.tf.glif</string>
     <key>oslash</key>
     <string>oslash.glif</string>
     <key>p</key>
@@ -204,6 +226,8 @@
     <string>q.glif</string>
     <key>question</key>
     <string>question.glif</string>
+    <key>quotedbl</key>
+    <string>quotedbl.glif</string>
     <key>quotedblleft</key>
     <string>quotedblleft.glif</string>
     <key>quotedblright</key>
@@ -212,6 +236,8 @@
     <string>quoteleft.glif</string>
     <key>quoteright</key>
     <string>quoteright.glif</string>
+    <key>quotesingle</key>
+    <string>quotesingle.glif</string>
     <key>r</key>
     <string>r.glif</string>
     <key>ring</key>
@@ -222,8 +248,12 @@
     <string>semicolon.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
+    <key>seven.tf</key>
+    <string>seven.tf.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>six.tf</key>
+    <string>six.tf.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
     <key>space</key>
@@ -232,10 +262,14 @@
     <string>t.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>three.tf</key>
+    <string>three.tf.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>two.tf</key>
+    <string>two.tf.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>underscore</key>
@@ -638,5 +672,11 @@
     <string>z.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>zero.slash</key>
+    <string>zero.slash.glif</string>
+    <key>zero.slash.tf</key>
+    <string>zero.slash.tf.glif</string>
+    <key>zero.tf</key>
+    <string>zero.tf.glif</string>
   </dict>
 </plist>

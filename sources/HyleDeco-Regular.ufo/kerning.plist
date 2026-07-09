@@ -8,11 +8,27 @@
       <integer>-12</integer>
       <key>V</key>
       <integer>-10</integer>
+      <key>W</key>
+      <integer>-8</integer>
+    </dict>
+    <key>F</key>
+    <dict>
+      <key>A</key>
+      <integer>-10</integer>
     </dict>
     <key>L</key>
     <dict>
       <key>T</key>
       <integer>-20</integer>
+      <key>V</key>
+      <integer>-16</integer>
+      <key>Y</key>
+      <integer>-16</integer>
+    </dict>
+    <key>P</key>
+    <dict>
+      <key>A</key>
+      <integer>-12</integer>
     </dict>
     <key>S</key>
     <dict>
@@ -23,11 +39,27 @@
     <dict>
       <key>A</key>
       <integer>-12</integer>
+      <key>S</key>
+      <integer>-12</integer>
+      <key>period</key>
+      <integer>-28</integer>
     </dict>
     <key>V</key>
     <dict>
       <key>A</key>
       <integer>-10</integer>
+      <key>period</key>
+      <integer>-24</integer>
+    </dict>
+    <key>W</key>
+    <dict>
+      <key>A</key>
+      <integer>-8</integer>
+    </dict>
+    <key>Y</key>
+    <dict>
+      <key>period</key>
+      <integer>-24</integer>
     </dict>
   </dict>
 </plist>

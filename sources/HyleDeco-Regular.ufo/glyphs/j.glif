@@ -1,60 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="j" format="2">
-  <advance width="239"/>
+  <advance width="139"/>
   <unicode hex="006A"/>
   <outline>
     <contour>
-      <point x="68" y="642" type="line"/>
-      <point x="69" y="648" type="line"/>
-      <point x="73" y="655" type="line"/>
-      <point x="77" y="659" type="line"/>
-      <point x="84" y="662" type="line"/>
-      <point x="144" y="662" type="line"/>
-      <point x="150" y="661" type="line"/>
-      <point x="155" y="659" type="line"/>
-      <point x="162" y="651" type="line"/>
-      <point x="164" y="644" type="line"/>
-      <point x="164" y="586" type="line"/>
-      <point x="163" y="580" type="line"/>
-      <point x="161" y="575" type="line"/>
-      <point x="155" y="569" type="line"/>
-      <point x="146" y="566" type="line"/>
-      <point x="88" y="566" type="line"/>
-      <point x="82" y="567" type="line"/>
-      <point x="77" y="569" type="line"/>
-      <point x="70" y="577" type="line"/>
-      <point x="68" y="584" type="line"/>
+      <point x="89" y="-149" type="line"/>
+      <point x="87" y="-164" type="line"/>
+      <point x="82" y="-176" type="line"/>
+      <point x="79" y="-182" type="line"/>
+      <point x="67" y="-195" type="line"/>
+      <point x="55" y="-203" type="line"/>
+      <point x="43" y="-208" type="line"/>
+      <point x="33" y="-210" type="line"/>
+      <point x="-41" y="-210" type="line"/>
+      <point x="-41" y="-166" type="line"/>
+      <point x="31" y="-165" type="line"/>
+      <point x="37" y="-163" type="line"/>
+      <point x="40" y="-160" type="line"/>
+      <point x="43" y="-156" type="line"/>
+      <point x="45" y="-150" type="line"/>
+      <point x="45" y="500" type="line"/>
+      <point x="89" y="500" type="line"/>
     </contour>
     <contour>
-      <point x="74" y="-145" type="line"/>
-      <point x="74" y="502" type="line"/>
-      <point x="76" y="508" type="line"/>
-      <point x="79" y="513" type="line"/>
-      <point x="83" y="517" type="line"/>
-      <point x="88" y="519" type="line"/>
-      <point x="94" y="520" type="line"/>
-      <point x="140" y="520" type="line"/>
-      <point x="146" y="518" type="line"/>
-      <point x="152" y="514" type="line"/>
-      <point x="156" y="508" type="line"/>
-      <point x="158" y="500" type="line"/>
-      <point x="158" y="-149" type="line"/>
-      <point x="156" y="-168" type="line"/>
-      <point x="145" y="-193" type="line"/>
-      <point x="131" y="-209" type="line"/>
-      <point x="113" y="-221" type="line"/>
-      <point x="98" y="-227" type="line"/>
-      <point x="82" y="-230" type="line"/>
-      <point x="8" y="-230" type="line"/>
-      <point x="0" y="-228" type="line"/>
-      <point x="-6" y="-224" type="line"/>
-      <point x="-10" y="-218" type="line"/>
-      <point x="-12" y="-210" type="line"/>
-      <point x="-12" y="-164" type="line"/>
-      <point x="-11" y="-158" type="line"/>
-      <point x="-6" y="-152" type="line"/>
-      <point x="-2" y="-148" type="line"/>
-      <point x="6" y="-146" type="line"/>
+      <point x="39" y="642" type="line"/>
+      <point x="95" y="642" type="line"/>
+      <point x="95" y="586" type="line"/>
+      <point x="39" y="586" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -68,7 +40,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>59ae77105b92297f4d1367d324b9e4e6c386a0db8dbf80745c4f143773b417685a846a2caf2f088e9d8ec4cb4d64af1fd0fe600ac1d0a740640fddd8db802829</string>
+        <string>e87a8bc2a4cde3ed04653bb30bfde56d4640ceaaecaaf63936369359a02f84fdfd732f2cffbf40041f3d15fd9c552a3416ec1ee3b3a2469335f233025cfb3c4d</string>
       </dict>
     </dict>
   </lib>

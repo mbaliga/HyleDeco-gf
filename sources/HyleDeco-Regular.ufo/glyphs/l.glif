@@ -1,31 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l" format="2">
-  <advance width="206"/>
+  <advance width="138"/>
   <unicode hex="006C"/>
   <outline>
     <contour>
-      <point x="41" y="700" type="line"/>
-      <point x="43" y="708" type="line"/>
-      <point x="47" y="714" type="line"/>
-      <point x="53" y="718" type="line"/>
-      <point x="61" y="720" type="line"/>
-      <point x="105" y="720" type="line"/>
-      <point x="111" y="719" type="line"/>
-      <point x="116" y="717" type="line"/>
-      <point x="120" y="713" type="line"/>
-      <point x="123" y="708" type="line"/>
-      <point x="125" y="702" type="line"/>
-      <point x="125" y="0" type="line"/>
-      <point x="123" y="-8" type="line"/>
-      <point x="119" y="-14" type="line"/>
-      <point x="113" y="-18" type="line"/>
-      <point x="107" y="-20" type="line"/>
-      <point x="61" y="-20" type="line"/>
-      <point x="55" y="-19" type="line"/>
-      <point x="50" y="-17" type="line"/>
-      <point x="46" y="-13" type="line"/>
-      <point x="43" y="-8" type="line"/>
-      <point x="41" y="-2" type="line"/>
+      <point x="46" y="700" type="line"/>
+      <point x="90" y="700" type="line"/>
+      <point x="90" y="0" type="line"/>
+      <point x="46" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -39,7 +21,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>3ed9b71801a3d00ffeebce57ffcc7ef86a50d763f82d865012e90fa8c2915b1c7b264226299a90b91b9ab1e935e9da74d121ea211e2fad03550e2da258590f6c</string>
+        <string>w138l46+700l90+700l90+0l46+0|</string>
       </dict>
     </dict>
   </lib>

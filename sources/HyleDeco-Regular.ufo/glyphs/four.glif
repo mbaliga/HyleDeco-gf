@@ -1,46 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four" format="2">
-  <advance width="341"/>
+  <advance width="301"/>
   <unicode hex="0034"/>
   <outline>
     <contour>
-      <point x="309" y="0" type="line"/>
-      <point x="307" y="-8" type="line"/>
-      <point x="303" y="-14" type="line"/>
-      <point x="298" y="-18" type="line"/>
-      <point x="291" y="-20" type="line"/>
-      <point x="241" y="-19" type="line"/>
-      <point x="232" y="-14" type="line"/>
-      <point x="227" y="-8" type="line"/>
-      <point x="225" y="1" type="line"/>
-      <point x="225" y="174" type="line"/>
-      <point x="10" y="174" type="line"/>
-      <point x="4" y="176" type="line"/>
-      <point x="-1" y="179" type="line"/>
-      <point x="-6" y="185" type="line"/>
-      <point x="-8" y="191" type="line"/>
-      <point x="-8" y="197" type="line"/>
-      <point x="-4" y="215" type="line"/>
-      <point x="29" y="295" type="line"/>
-      <point x="164" y="649" type="line"/>
-      <point x="171" y="662" type="line"/>
-      <point x="186" y="704" type="line"/>
-      <point x="190" y="711" type="line"/>
-      <point x="194" y="715" type="line"/>
-      <point x="199" y="718" type="line"/>
-      <point x="205" y="720" type="line"/>
-      <point x="252" y="720" type="line"/>
-      <point x="260" y="718" type="line"/>
-      <point x="266" y="714" type="line"/>
-      <point x="270" y="709" type="line"/>
-      <point x="272" y="702" type="line"/>
-      <point x="272" y="694" type="line"/>
-      <point x="104" y="258" type="line"/>
-      <point x="289" y="257" type="line"/>
-      <point x="297" y="255" type="line"/>
-      <point x="304" y="250" type="line"/>
-      <point x="308" y="243" type="line"/>
-      <point x="309" y="237" type="line"/>
+      <point x="289" y="0" type="line"/>
+      <point x="245" y="1" type="line"/>
+      <point x="245" y="194" type="line"/>
+      <point x="12" y="194" type="line"/>
+      <point x="15" y="207" type="line"/>
+      <point x="48" y="288" type="line"/>
+      <point x="183" y="642" type="line"/>
+      <point x="189" y="654" type="line"/>
+      <point x="205" y="697" type="line"/>
+      <point x="207" y="700" type="line"/>
+      <point x="252" y="700" type="line"/>
+      <point x="252" y="698" type="line"/>
+      <point x="75" y="238" type="line"/>
+      <point x="289" y="237" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -54,7 +31,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>fe2be9f61998c4b6bb85882a1724a4a498689a8a72eddda2dd31a26545cc8c21165a1cd01e8c55390cd299a1ff3416568557f672c82dd1eda2bd0ba4b5f7f627</string>
+        <string>w301l289+0l245+1l245+194l12+194l15+207l48+288l183+642l189+654l205+697l207+700l252+700l252+698l75+238l289+237|</string>
       </dict>
     </dict>
   </lib>

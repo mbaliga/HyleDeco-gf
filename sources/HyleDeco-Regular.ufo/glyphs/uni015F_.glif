@@ -1,152 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni015F" format="2">
-  <advance width="370"/>
+  <advance width="330"/>
   <unicode hex="015F"/>
   <outline>
-    <contour>
-      <point x="127" y="433" type="line"/>
-      <point x="110" y="427" type="line"/>
-      <point x="96" y="418" type="line"/>
-      <point x="84" y="404" type="line"/>
-      <point x="81" y="399" type="line"/>
-      <point x="75" y="381" type="line"/>
-      <point x="72" y="362" type="line"/>
-      <point x="73" y="328" type="line"/>
-      <point x="77" y="310" type="line"/>
-      <point x="80" y="303" type="line"/>
-      <point x="90" y="288" type="line"/>
-      <point x="103" y="277" type="line"/>
-      <point x="118" y="269" type="line"/>
-      <point x="135" y="265" type="line"/>
-      <point x="199" y="264" type="line"/>
-      <point x="225" y="261" type="line"/>
-      <point x="243" y="255" type="line"/>
-      <point x="257" y="250" type="line"/>
-      <point x="269" y="243" type="line"/>
-      <point x="283" y="232" type="line"/>
-      <point x="296" y="220" type="line"/>
-      <point x="311" y="196" type="line"/>
-      <point x="317" y="181" type="line"/>
-      <point x="323" y="165" type="line"/>
-      <point x="326" y="137" type="line"/>
-      <point x="326" y="107" type="line"/>
-      <point x="323" y="78" type="line"/>
-      <point x="317" y="61" type="line"/>
-      <point x="310" y="46" type="line"/>
-      <point x="293" y="22" type="line"/>
-      <point x="282" y="10" type="line"/>
-      <point x="259" y="-5" type="line"/>
-      <point x="237" y="-14" type="line"/>
-      <point x="237" y="-70" type="line"/>
-      <point x="236" y="-77" type="line"/>
-      <point x="238" y="-84" type="line"/>
-      <point x="242" y="-107" type="line"/>
-      <point x="242" y="-116" type="line"/>
-      <point x="241" y="-121" type="line"/>
-      <point x="234" y="-148" type="line"/>
-      <point x="227" y="-158" type="line"/>
-      <point x="206" y="-180" type="line"/>
-      <point x="202" y="-183" type="line"/>
-      <point x="193" y="-188" type="line"/>
-      <point x="172" y="-195" type="line"/>
-      <point x="156" y="-197" type="line"/>
-      <point x="125" y="-191" type="line"/>
-      <point x="115" y="-186" type="line"/>
-      <point x="93" y="-171" type="line"/>
-      <point x="89" y="-164" type="line"/>
-      <point x="88" y="-156" type="line"/>
-      <point x="89" y="-151" type="line"/>
-      <point x="92" y="-145" type="line"/>
-      <point x="118" y="-109" type="line"/>
-      <point x="124" y="-104" type="line"/>
-      <point x="129" y="-102" type="line"/>
-      <point x="137" y="-101" type="line"/>
-      <point x="145" y="-104" type="line"/>
-      <point x="155" y="-112" type="line"/>
-      <point x="157" y="-110" type="line"/>
-      <point x="157" y="-109" type="line"/>
-      <point x="145" y="-104" type="line"/>
-      <point x="140" y="-100" type="line"/>
-      <point x="136" y="-95" type="line"/>
-      <point x="134" y="-88" type="line"/>
-      <point x="134" y="-84" type="line"/>
-      <point x="136" y="-78" type="line"/>
-      <point x="153" y="-39" type="line"/>
-      <point x="153" y="-20" type="line"/>
-      <point x="32" y="-20" type="line"/>
-      <point x="23" y="-18" type="line"/>
-      <point x="15" y="-11" type="line"/>
-      <point x="12" y="-4" type="line"/>
-      <point x="12" y="48" type="line"/>
-      <point x="14" y="53" type="line"/>
-      <point x="18" y="58" type="line"/>
-      <point x="23" y="62" type="line"/>
-      <point x="30" y="64" type="line"/>
-      <point x="196" y="64" type="line"/>
-      <point x="209" y="66" type="line"/>
-      <point x="219" y="69" type="line"/>
-      <point x="231" y="79" type="line"/>
-      <point x="237" y="87" type="line"/>
-      <point x="240" y="97" type="line"/>
-      <point x="242" y="110" type="line"/>
-      <point x="242" y="134" type="line"/>
-      <point x="240" y="147" type="line"/>
-      <point x="237" y="157" type="line"/>
-      <point x="231" y="164" type="line"/>
-      <point x="222" y="173" type="line"/>
-      <point x="214" y="177" type="line"/>
-      <point x="204" y="179" type="line"/>
-      <point x="125" y="181" type="line"/>
-      <point x="104" y="185" type="line"/>
-      <point x="87" y="191" type="line"/>
-      <point x="72" y="198" type="line"/>
-      <point x="58" y="206" type="line"/>
-      <point x="41" y="219" type="line"/>
-      <point x="27" y="233" type="line"/>
-      <point x="14" y="250" type="line"/>
-      <point x="5" y="266" type="line"/>
-      <point x="-2" y="281" type="line"/>
-      <point x="-11" y="315" type="line"/>
-      <point x="-12" y="335" type="line"/>
-      <point x="-12" y="364" type="line"/>
-      <point x="-11" y="383" type="line"/>
-      <point x="-3" y="416" type="line"/>
-      <point x="5" y="434" type="line"/>
-      <point x="14" y="450" type="line"/>
-      <point x="27" y="467" type="line"/>
-      <point x="41" y="481" type="line"/>
-      <point x="55" y="492" type="line"/>
-      <point x="71" y="502" type="line"/>
-      <point x="92" y="511" type="line"/>
-      <point x="123" y="519" type="line"/>
-      <point x="142" y="520" type="line"/>
-      <point x="322" y="520" type="line"/>
-      <point x="328" y="519" type="line"/>
-      <point x="333" y="517" type="line"/>
-      <point x="337" y="513" type="line"/>
-      <point x="341" y="506" type="line"/>
-      <point x="342" y="500" type="line"/>
-      <point x="342" y="452" type="line"/>
-      <point x="337" y="443" type="line"/>
-      <point x="333" y="439" type="line"/>
-      <point x="328" y="437" type="line"/>
-      <point x="322" y="436" type="line"/>
-      <point x="146" y="436" type="line"/>
-    </contour>
+    <component base="s" identifier="component0"/>
+    <component base="cedilla" xOffset="100" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>9e750657b231ffcdae7b535b080f6db4ccfe5d96c44986e5a8a4b85ab9ca5ee6da2e2e4e6f50d916b25df42295eb2ace34f7b13d670c57eafb0ac7405b05c954</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

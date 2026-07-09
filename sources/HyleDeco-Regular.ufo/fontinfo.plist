@@ -6,6 +6,8 @@
     <integer>984</integer>
     <key>capHeight</key>
     <integer>700</integer>
+    <key>copyright</key>
+    <string>Copyright 2026 The Hyle Deco Project Authors (https://github.com/CONFIRM/hyle-deco)</string>
     <key>descender</key>
     <integer>-292</integer>
     <key>familyName</key>
@@ -13,7 +15,7 @@
     <key>italicAngle</key>
     <real>0.0</real>
     <key>openTypeHeadCreated</key>
-    <string>2026/07/05 19:03:40</string>
+    <string>2026/07/05 14:15:05</string>
     <key>openTypeHeadFlags</key>
     <array>
       <integer>0</integer>
@@ -33,7 +35,15 @@
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDescription</key>
-    <string>[CANON: designer-approved] geometry-inflated from hairline master; OT features live in Thin; drawn masters needed for production weights.</string>
+    <string>v7b [SCAFFOLD]: aperture chord bug fixed (c,e,cent); Oslash counter restored; exclam regression reverted.</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1.</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Hyle Deco</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Thin</string>
     <key>openTypeNameRecords</key>
     <array>
       <dict>
@@ -42,11 +52,35 @@
         <key>languageID</key>
         <integer>0</integer>
         <key>nameID</key>
+        <integer>0</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>Copyright 2026 The Hyle Deco Project Authors (https://github.com/CONFIRM/hyle-deco)</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>0</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Copyright 2026 The Hyle Deco Project Authors (https://github.com/CONFIRM/hyle-deco)</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
         <integer>1</integer>
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>Hyle Deco</string>
+        <string>Hyle Deco Thin</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -58,7 +92,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>Hyle Deco</string>
+        <string>Hyle Deco Thin</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -94,7 +128,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>HyleDeco-Regular-SCAFFOLD</string>
+        <string>HyleDeco-v7b-SCAFFOLD</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -106,7 +140,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>HyleDeco-Regular</string>
+        <string>HyleDeco-v12-SCAFFOLD</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -118,7 +152,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>Hyle Deco Regular</string>
+        <string>Hyle Deco Thin</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -130,7 +164,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>Hyle Deco Regular</string>
+        <string>Hyle Deco Thin</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -142,7 +176,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>Version 1.000</string>
+        <string>Version 1.023</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -154,7 +188,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>Version 1.000</string>
+        <string>Version 1.023</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -166,7 +200,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>HyleDeco-Regular</string>
+        <string>HyleDeco-Thin</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -178,7 +212,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>HyleDeco-Regular</string>
+        <string>HyleDeco-Thin</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -190,7 +224,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>[CANON: designer-approved] geometry-inflated from hairline master; OT features live in Thin; drawn masters needed for production weights.</string>
+        <string>v7b [SCAFFOLD]: aperture chord bug fixed (c,e,cent); Oslash counter restored; exclam regression reverted.</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -202,13 +236,205 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>[CANON: designer-approved] geometry-inflated from hairline master; OT features live in Thin; drawn masters needed for production weights.</string>
+        <string>v7b [SCAFFOLD]: aperture chord bug fixed (c,e,cent); Oslash counter restored; exclam regression reverted.</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>13</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>This Font Software is licensed under the SIL Open Font License, Version 1.1.</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>13</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>This Font Software is licensed under the SIL Open Font License, Version 1.1.</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>14</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>https://scripts.sil.org/OFL</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>14</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>https://scripts.sil.org/OFL</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>16</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>Hyle Deco</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>16</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Hyle Deco</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>17</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>Thin</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>17</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Thin</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>256</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>Weight</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>256</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Weight</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>257</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>Thin</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>257</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Thin</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>258</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>Italic</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>258</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Italic</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>0</integer>
+        <key>languageID</key>
+        <integer>0</integer>
+        <key>nameID</key>
+        <integer>259</integer>
+        <key>platformID</key>
+        <integer>1</integer>
+        <key>string</key>
+        <string>Roman</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>259</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Roman</string>
       </dict>
     </array>
     <key>openTypeNameUniqueID</key>
-    <string>HyleDeco-Regular-SCAFFOLD</string>
+    <string>HyleDeco-v7b-SCAFFOLD</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.000</string>
+    <string>Version 1.023</string>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>
@@ -264,14 +490,8 @@
       <integer>0</integer>
       <integer>1</integer>
       <integer>2</integer>
-      <integer>3</integer>
-      <integer>5</integer>
-      <integer>6</integer>
-      <integer>29</integer>
       <integer>31</integer>
-      <integer>33</integer>
-      <integer>35</integer>
-      <integer>38</integer>
+      <integer>60</integer>
     </array>
     <key>openTypeOS2VendorID</key>
     <string>????</string>
@@ -284,7 +504,7 @@
     <key>openTypeOS2WinDescent</key>
     <integer>292</integer>
     <key>postscriptFontName</key>
-    <string>HyleDeco-Regular</string>
+    <string>HyleDeco-Thin</string>
     <key>postscriptIsFixedPitch</key>
     <false/>
     <key>postscriptUnderlinePosition</key>
@@ -292,17 +512,17 @@
     <key>postscriptUnderlineThickness</key>
     <integer>0</integer>
     <key>styleMapFamilyName</key>
-    <string>Hyle Deco</string>
+    <string>Hyle Deco Thin</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>styleName</key>
-    <string>Regular</string>
+    <string>Thin</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>23</integer>
     <key>xHeight</key>
     <integer>500</integer>
   </dict>

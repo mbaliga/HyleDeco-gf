@@ -1,29 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="backslash" format="2">
-  <advance width="440"/>
+  <advance width="400"/>
   <unicode hex="005C"/>
   <outline>
     <contour>
-      <point x="318" y="-20" type="line"/>
-      <point x="308" y="-18" type="line"/>
-      <point x="301" y="-11" type="line"/>
-      <point x="284" y="27" type="line"/>
-      <point x="31" y="651" type="line"/>
-      <point x="30" y="658" type="line"/>
-      <point x="31" y="704" type="line"/>
-      <point x="36" y="713" type="line"/>
-      <point x="43" y="719" type="line"/>
-      <point x="51" y="720" type="line"/>
-      <point x="84" y="720" type="line"/>
-      <point x="93" y="715" type="line"/>
-      <point x="99" y="708" type="line"/>
-      <point x="369" y="43" type="line"/>
-      <point x="370" y="35" type="line"/>
-      <point x="370" y="-1" type="line"/>
-      <point x="369" y="-7" type="line"/>
-      <point x="366" y="-11" type="line"/>
-      <point x="360" y="-16" type="line"/>
-      <point x="354" y="-19" type="line"/>
+      <point x="317" y="0" type="line"/>
+      <point x="350" y="1" type="line"/>
+      <point x="350" y="32" type="line"/>
+      <point x="350" y="35" type="line"/>
+      <point x="81" y="699" type="line"/>
+      <point x="80" y="700" type="line"/>
+      <point x="51" y="700" type="line"/>
+      <point x="50" y="658" type="line"/>
+      <point x="281" y="86" type="line"/>
+      <point x="284" y="81" type="line"/>
+      <point x="302" y="35" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,7 +28,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>e822e2d023bb4dc439dcd016a08abbbd86702c349cd45939a8dc1ff8db0292bdd2882335a02fd385f0a214308fb7370f01f48f8a3d85fe58cfd8bdec55b893f4</string>
+        <string>w400l317+0l350+1l350+32l350+35l81+699l80+700l51+700l50+658l281+86l284+81l302+35|</string>
       </dict>
     </dict>
   </lib>

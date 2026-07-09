@@ -1,110 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0100" format="2">
-  <advance width="654"/>
+  <advance width="614"/>
   <unicode hex="0100"/>
   <outline>
-    <contour>
-      <point x="247" y="668" type="line"/>
-      <point x="208" y="668" type="line"/>
-      <point x="201" y="671" type="line"/>
-      <point x="194" y="679" type="line"/>
-      <point x="192" y="688" type="line"/>
-      <point x="192" y="734" type="line"/>
-      <point x="195" y="743" type="line"/>
-      <point x="203" y="750" type="line"/>
-      <point x="212" y="752" type="line"/>
-      <point x="402" y="752" type="line"/>
-      <point x="408" y="751" type="line"/>
-      <point x="413" y="749" type="line"/>
-      <point x="420" y="741" type="line"/>
-      <point x="422" y="732" type="line"/>
-      <point x="422" y="688" type="line"/>
-      <point x="421" y="682" type="line"/>
-      <point x="419" y="677" type="line"/>
-      <point x="413" y="671" type="line"/>
-      <point x="406" y="668" type="line"/>
-      <point x="367" y="668" type="line"/>
-      <point x="620" y="14" type="line"/>
-      <point x="622" y="4" type="line"/>
-      <point x="621" y="-3" type="line"/>
-      <point x="617" y="-12" type="line"/>
-      <point x="611" y="-18" type="line"/>
-      <point x="605" y="-20" type="line"/>
-      <point x="601" y="-20" type="line"/>
-      <point x="555" y="-20" type="line"/>
-      <point x="547" y="-18" type="line"/>
-      <point x="541" y="-12" type="line"/>
-      <point x="537" y="-5" type="line"/>
-      <point x="469" y="173" type="line"/>
-      <point x="146" y="173" type="line"/>
-      <point x="77" y="-5" type="line"/>
-      <point x="73" y="-12" type="line"/>
-      <point x="67" y="-18" type="line"/>
-      <point x="59" y="-20" type="line"/>
-      <point x="12" y="-20" type="line"/>
-      <point x="3" y="-17" type="line"/>
-      <point x="-2" y="-12" type="line"/>
-      <point x="-6" y="-8" type="line"/>
-      <point x="-8" y="2" type="line"/>
-      <point x="-7" y="9" type="line"/>
-    </contour>
-    <contour>
-      <point x="178" y="256" type="line"/>
-      <point x="437" y="256" type="line"/>
-      <point x="433" y="263" type="line"/>
-      <point x="427" y="281" type="line"/>
-      <point x="423" y="288" type="line"/>
-      <point x="416" y="310" type="line"/>
-      <point x="403" y="342" type="line"/>
-      <point x="398" y="357" type="line"/>
-      <point x="394" y="364" type="line"/>
-      <point x="393" y="369" type="line"/>
-      <point x="384" y="390" type="line"/>
-      <point x="377" y="411" type="line"/>
-      <point x="364" y="443" type="line"/>
-      <point x="352" y="474" type="line"/>
-      <point x="350" y="479" type="line"/>
-      <point x="348" y="485" type="line"/>
-      <point x="344" y="495" type="line"/>
-      <point x="342" y="502" type="line"/>
-      <point x="338" y="510" type="line"/>
-      <point x="324" y="546" type="line"/>
-      <point x="323" y="551" type="line"/>
-      <point x="307" y="592" type="line"/>
-      <point x="301" y="573" type="line"/>
-      <point x="297" y="565" type="line"/>
-      <point x="296" y="560" type="line"/>
-      <point x="292" y="553" type="line"/>
-      <point x="281" y="523" type="line"/>
-      <point x="268" y="491" type="line"/>
-      <point x="261" y="470" type="line"/>
-      <point x="252" y="449" type="line"/>
-      <point x="251" y="444" type="line"/>
-      <point x="247" y="436" type="line"/>
-      <point x="243" y="423" type="line"/>
-      <point x="229" y="390" type="line"/>
-      <point x="222" y="368" type="line"/>
-      <point x="213" y="348" type="line"/>
-      <point x="212" y="343" type="line"/>
-      <point x="199" y="312" type="line"/>
-      <point x="198" y="307" type="line"/>
-      <point x="194" y="299" type="line"/>
-      <point x="187" y="278" type="line"/>
-    </contour>
+    <component base="A" identifier="component0"/>
+    <component base="macron" xOffset="204" yOffset="90" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>153ab0b2c76c0ff3525ad2a7a824a623d9eb541c29b0eadb7038fc2635dd693a8367ed222deeb47806fdf4bfa8fb87a1cc6f6fb04379763fd11d0bfcc16c3cdf</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

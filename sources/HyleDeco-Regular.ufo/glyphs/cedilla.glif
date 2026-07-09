@@ -1,52 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
-  <advance width="170"/>
+  <advance width="130"/>
   <unicode hex="00B8"/>
   <outline>
     <contour>
-      <point x="53" y="-39" type="line"/>
-      <point x="53" y="4" type="line"/>
-      <point x="56" y="11" type="line"/>
-      <point x="62" y="17" type="line"/>
-      <point x="71" y="20" type="line"/>
-      <point x="119" y="20" type="line"/>
-      <point x="128" y="17" type="line"/>
-      <point x="134" y="11" type="line"/>
-      <point x="136" y="6" type="line"/>
-      <point x="137" y="0" type="line"/>
-      <point x="137" y="-70" type="line"/>
-      <point x="136" y="-77" type="line"/>
-      <point x="138" y="-84" type="line"/>
-      <point x="142" y="-110" type="line"/>
-      <point x="142" y="-119" type="line"/>
-      <point x="135" y="-146" type="line"/>
-      <point x="127" y="-158" type="line"/>
-      <point x="106" y="-180" type="line"/>
-      <point x="102" y="-183" type="line"/>
-      <point x="93" y="-188" type="line"/>
-      <point x="72" y="-195" type="line"/>
-      <point x="56" y="-197" type="line"/>
-      <point x="25" y="-191" type="line"/>
-      <point x="15" y="-186" type="line"/>
-      <point x="-7" y="-171" type="line"/>
-      <point x="-11" y="-164" type="line"/>
-      <point x="-12" y="-158" type="line"/>
-      <point x="-11" y="-152" type="line"/>
-      <point x="-9" y="-147" type="line"/>
-      <point x="18" y="-109" type="line"/>
-      <point x="22" y="-105" type="line"/>
-      <point x="29" y="-102" type="line"/>
-      <point x="37" y="-101" type="line"/>
-      <point x="45" y="-104" type="line"/>
-      <point x="55" y="-112" type="line"/>
-      <point x="57" y="-110" type="line"/>
-      <point x="57" y="-109" type="line"/>
-      <point x="45" y="-104" type="line"/>
-      <point x="40" y="-100" type="line"/>
-      <point x="35" y="-93" type="line"/>
-      <point x="34" y="-88" type="line"/>
-      <point x="34" y="-84" type="line"/>
-      <point x="36" y="-78" type="line"/>
+      <point x="113" y="-77" type="line"/>
+      <point x="118" y="-87" type="line"/>
+      <point x="122" y="-110" type="line"/>
+      <point x="122" y="-116" type="line"/>
+      <point x="116" y="-139" type="line"/>
+      <point x="113" y="-144" type="line"/>
+      <point x="92" y="-166" type="line"/>
+      <point x="87" y="-169" type="line"/>
+      <point x="66" y="-176" type="line"/>
+      <point x="56" y="-177" type="line"/>
+      <point x="31" y="-172" type="line"/>
+      <point x="25" y="-169" type="line"/>
+      <point x="8" y="-157" type="line"/>
+      <point x="34" y="-121" type="line"/>
+      <point x="47" y="-131" type="line"/>
+      <point x="57" y="-132" type="line"/>
+      <point x="67" y="-129" type="line"/>
+      <point x="75" y="-121" type="line"/>
+      <point x="78" y="-111" type="line"/>
+      <point x="76" y="-101" type="line"/>
+      <point x="69" y="-92" type="line"/>
+      <point x="54" y="-86" type="line"/>
+      <point x="72" y="-46" type="line"/>
+      <point x="73" y="-46" type="line"/>
+      <point x="73" y="0" type="line"/>
+      <point x="117" y="0" type="line"/>
+      <point x="117" y="-70" type="line"/>
+      <point x="108" y="-70" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -60,7 +45,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>29f9a6324d3463323c81d87a26a8f152975c056c7f4a6b521c266a6407c8ecc615f7d15ae67fa1701883ae8f5b6e50b8c81e1cdd53ed9fc87277d6c94857c09f</string>
+        <string>45f449ff0aec4a06458d5f26c300db245238bdfb040c7c13c3173ee8257f22bb947c26d11bc94360937015259745b837ed7bb751b8ecabdcad1dc51808436b1e</string>
       </dict>
     </dict>
   </lib>

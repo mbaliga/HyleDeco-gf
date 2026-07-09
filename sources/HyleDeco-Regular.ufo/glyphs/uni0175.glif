@@ -1,107 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0175" format="2">
-  <advance width="614"/>
+  <advance width="574"/>
   <unicode hex="0175"/>
   <outline>
-    <contour>
-      <point x="159" y="177" type="line"/>
-      <point x="247" y="472" type="line"/>
-      <point x="249" y="477" type="line"/>
-      <point x="259" y="490" type="line"/>
-      <point x="270" y="498" type="line"/>
-      <point x="275" y="500" type="line"/>
-      <point x="290" y="502" type="line"/>
-      <point x="296" y="502" type="line"/>
-      <point x="302" y="499" type="line"/>
-      <point x="314" y="492" type="line"/>
-      <point x="326" y="477" type="line"/>
-      <point x="415" y="177" type="line"/>
-      <point x="506" y="515" type="line"/>
-      <point x="509" y="520" type="line"/>
-      <point x="514" y="523" type="line"/>
-      <point x="520" y="526" type="line"/>
-      <point x="525" y="526" type="line"/>
-      <point x="574" y="513" type="line"/>
-      <point x="579" y="510" type="line"/>
-      <point x="583" y="506" type="line"/>
-      <point x="586" y="498" type="line"/>
-      <point x="586" y="489" type="line"/>
-      <point x="458" y="11" type="line"/>
-      <point x="453" y="-1" type="line"/>
-      <point x="448" y="-7" type="line"/>
-      <point x="443" y="-12" type="line"/>
-      <point x="431" y="-18" type="line"/>
-      <point x="421" y="-20" type="line"/>
-      <point x="416" y="-20" type="line"/>
-      <point x="402" y="-17" type="line"/>
-      <point x="392" y="-12" type="line"/>
-      <point x="387" y="-7" type="line"/>
-      <point x="381" y="1" type="line"/>
-      <point x="377" y="10" type="line"/>
-      <point x="287" y="313" type="line"/>
-      <point x="197" y="7" type="line"/>
-      <point x="194" y="2" type="line"/>
-      <point x="183" y="-11" type="line"/>
-      <point x="173" y="-17" type="line"/>
-      <point x="159" y="-20" type="line"/>
-      <point x="142" y="-17" type="line"/>
-      <point x="137" y="-14" type="line"/>
-      <point x="124" y="-3" type="line"/>
-      <point x="117" y="11" type="line"/>
-      <point x="-11" y="489" type="line"/>
-      <point x="-12" y="495" type="line"/>
-      <point x="-11" y="500" type="line"/>
-      <point x="-8" y="506" type="line"/>
-      <point x="-4" y="510" type="line"/>
-      <point x="3" y="513" type="line"/>
-      <point x="50" y="526" type="line"/>
-      <point x="55" y="526" type="line"/>
-      <point x="61" y="523" type="line"/>
-      <point x="66" y="520" type="line"/>
-      <point x="69" y="515" type="line"/>
-    </contour>
-    <contour>
-      <point x="252" y="723" type="line"/>
-      <point x="267" y="736" type="line"/>
-      <point x="282" y="742" type="line"/>
-      <point x="289" y="742" type="line"/>
-      <point x="302" y="739" type="line"/>
-      <point x="313" y="733" type="line"/>
-      <point x="317" y="730" type="line"/>
-      <point x="418" y="581" type="line"/>
-      <point x="420" y="576" type="line"/>
-      <point x="420" y="570" type="line"/>
-      <point x="418" y="563" type="line"/>
-      <point x="414" y="558" type="line"/>
-      <point x="372" y="530" type="line"/>
-      <point x="364" y="528" type="line"/>
-      <point x="355" y="530" type="line"/>
-      <point x="347" y="537" type="line"/>
-      <point x="287" y="625" type="line"/>
-      <point x="227" y="537" type="line"/>
-      <point x="219" y="530" type="line"/>
-      <point x="210" y="528" type="line"/>
-      <point x="202" y="530" type="line"/>
-      <point x="160" y="558" type="line"/>
-      <point x="156" y="563" type="line"/>
-      <point x="154" y="568" type="line"/>
-      <point x="154" y="574" type="line"/>
-      <point x="156" y="582" type="line"/>
-    </contour>
+    <component base="w" identifier="component0"/>
+    <component base="circumflex" xOffset="166" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>aab7b546cd5266631282131a49881a52b7578686b9c559a2557a577be864a26f1e8ae74dd92c60ab35824cda0717cca5f4ba62814b3499d92f5703a86948a053</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

@@ -1,64 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="w" format="2">
-  <advance width="614"/>
+  <advance width="652"/>
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="159" y="177" type="line"/>
-      <point x="247" y="472" type="line"/>
-      <point x="249" y="477" type="line"/>
-      <point x="259" y="490" type="line"/>
-      <point x="270" y="498" type="line"/>
-      <point x="275" y="500" type="line"/>
-      <point x="290" y="502" type="line"/>
-      <point x="296" y="502" type="line"/>
-      <point x="302" y="499" type="line"/>
-      <point x="314" y="492" type="line"/>
-      <point x="326" y="477" type="line"/>
-      <point x="415" y="177" type="line"/>
-      <point x="506" y="515" type="line"/>
-      <point x="509" y="520" type="line"/>
-      <point x="514" y="523" type="line"/>
-      <point x="520" y="526" type="line"/>
-      <point x="525" y="526" type="line"/>
-      <point x="574" y="513" type="line"/>
-      <point x="579" y="510" type="line"/>
-      <point x="583" y="506" type="line"/>
-      <point x="586" y="498" type="line"/>
-      <point x="586" y="489" type="line"/>
-      <point x="458" y="11" type="line"/>
-      <point x="453" y="-1" type="line"/>
-      <point x="448" y="-7" type="line"/>
-      <point x="443" y="-12" type="line"/>
-      <point x="431" y="-18" type="line"/>
-      <point x="421" y="-20" type="line"/>
-      <point x="416" y="-20" type="line"/>
-      <point x="402" y="-17" type="line"/>
-      <point x="392" y="-12" type="line"/>
-      <point x="387" y="-7" type="line"/>
-      <point x="381" y="1" type="line"/>
-      <point x="377" y="10" type="line"/>
-      <point x="287" y="313" type="line"/>
-      <point x="197" y="7" type="line"/>
-      <point x="194" y="2" type="line"/>
-      <point x="183" y="-11" type="line"/>
-      <point x="173" y="-17" type="line"/>
-      <point x="159" y="-20" type="line"/>
-      <point x="142" y="-17" type="line"/>
-      <point x="137" y="-14" type="line"/>
-      <point x="124" y="-3" type="line"/>
-      <point x="117" y="11" type="line"/>
-      <point x="-11" y="489" type="line"/>
-      <point x="-12" y="495" type="line"/>
-      <point x="-11" y="500" type="line"/>
-      <point x="-8" y="506" type="line"/>
-      <point x="-4" y="510" type="line"/>
-      <point x="3" y="513" type="line"/>
-      <point x="50" y="526" type="line"/>
-      <point x="55" y="526" type="line"/>
-      <point x="61" y="523" type="line"/>
-      <point x="66" y="520" type="line"/>
-      <point x="69" y="515" type="line"/>
+      <point x="195" y="103" type="line"/>
+      <point x="303" y="466" type="line"/>
+      <point x="309" y="475" type="line"/>
+      <point x="318" y="481" type="line"/>
+      <point x="329" y="482" type="line"/>
+      <point x="338" y="477" type="line"/>
+      <point x="345" y="468" type="line"/>
+      <point x="453" y="103" type="line"/>
+      <point x="561" y="506" type="line"/>
+      <point x="604" y="494" type="line"/>
+      <point x="476" y="16" type="line"/>
+      <point x="473" y="10" type="line"/>
+      <point x="469" y="5" type="line"/>
+      <point x="461" y="1" type="line"/>
+      <point x="455" y="0" type="line"/>
+      <point x="446" y="2" type="line"/>
+      <point x="440" y="5" type="line"/>
+      <point x="436" y="10" type="line"/>
+      <point x="433" y="16" type="line"/>
+      <point x="324" y="383" type="line"/>
+      <point x="215" y="14" type="line"/>
+      <point x="208" y="5" type="line"/>
+      <point x="203" y="2" type="line"/>
+      <point x="196" y="0" type="line"/>
+      <point x="185" y="2" type="line"/>
+      <point x="177" y="9" type="line"/>
+      <point x="173" y="16" type="line"/>
+      <point x="45" y="494" type="line"/>
+      <point x="88" y="506" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -72,7 +46,7 @@
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>4c0574ef24fcef481ced5e3e6a6a7398fc1ebf422ab8d4d5749c00dc9e960de1d191de32fa2c149e6bcf6c673b97c0c3a0cb4ea016d1660bacd1c2645a41a36d</string>
+        <string>17a2a0acad1651b2da2f26d23e7b2d41380a261f253a1072dadd7285bef089859efe467ea2bcc3507a8ed00319a77fbbc09a3b46b1b3be3daad094a8252eaa76</string>
       </dict>
     </dict>
   </lib>

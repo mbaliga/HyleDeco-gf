@@ -1,103 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0118" format="2">
-  <advance width="505"/>
+  <advance width="465"/>
   <unicode hex="0118"/>
   <outline>
-    <contour>
-      <point x="125" y="256" type="line"/>
-      <point x="360" y="256" type="line"/>
-      <point x="367" y="254" type="line"/>
-      <point x="373" y="249" type="line"/>
-      <point x="377" y="242" type="line"/>
-      <point x="378" y="236" type="line"/>
-      <point x="378" y="195" type="line"/>
-      <point x="377" y="190" type="line"/>
-      <point x="375" y="184" type="line"/>
-      <point x="371" y="179" type="line"/>
-      <point x="367" y="175" type="line"/>
-      <point x="361" y="173" type="line"/>
-      <point x="125" y="173" type="line"/>
-      <point x="125" y="64" type="line"/>
-      <point x="457" y="64" type="line"/>
-      <point x="462" y="62" type="line"/>
-      <point x="467" y="58" type="line"/>
-      <point x="471" y="53" type="line"/>
-      <point x="473" y="48" type="line"/>
-      <point x="473" y="-2" type="line"/>
-      <point x="471" y="-8" type="line"/>
-      <point x="468" y="-13" type="line"/>
-      <point x="461" y="-18" type="line"/>
-      <point x="453" y="-20" type="line"/>
-      <point x="273" y="-20" type="line"/>
-      <point x="266" y="-25" type="line"/>
-      <point x="248" y="-29" type="line"/>
-      <point x="244" y="-32" type="line"/>
-      <point x="242" y="-38" type="line"/>
-      <point x="242" y="-43" type="line"/>
-      <point x="245" y="-48" type="line"/>
-      <point x="249" y="-51" type="line"/>
-      <point x="255" y="-52" type="line"/>
-      <point x="272" y="-47" type="line"/>
-      <point x="277" y="-47" type="line"/>
-      <point x="285" y="-50" type="line"/>
-      <point x="291" y="-54" type="line"/>
-      <point x="294" y="-61" type="line"/>
-      <point x="308" y="-107" type="line"/>
-      <point x="308" y="-111" type="line"/>
-      <point x="306" y="-117" type="line"/>
-      <point x="303" y="-122" type="line"/>
-      <point x="299" y="-126" type="line"/>
-      <point x="293" y="-128" type="line"/>
-      <point x="263" y="-136" type="line"/>
-      <point x="257" y="-137" type="line"/>
-      <point x="226" y="-133" type="line"/>
-      <point x="215" y="-129" type="line"/>
-      <point x="184" y="-108" type="line"/>
-      <point x="181" y="-105" type="line"/>
-      <point x="164" y="-75" type="line"/>
-      <point x="162" y="-70" type="line"/>
-      <point x="159" y="-58" type="line"/>
-      <point x="158" y="-27" type="line"/>
-      <point x="159" y="-20" type="line"/>
-      <point x="60" y="-20" type="line"/>
-      <point x="53" y="-17" type="line"/>
-      <point x="48" y="-13" type="line"/>
-      <point x="44" y="-9" type="line"/>
-      <point x="42" y="-1" type="line"/>
-      <point x="42" y="700" type="line"/>
-      <point x="44" y="708" type="line"/>
-      <point x="47" y="713" type="line"/>
-      <point x="51" y="717" type="line"/>
-      <point x="56" y="719" type="line"/>
-      <point x="62" y="720" type="line"/>
-      <point x="356" y="720" type="line"/>
-      <point x="361" y="719" type="line"/>
-      <point x="367" y="717" type="line"/>
-      <point x="370" y="715" type="line"/>
-      <point x="374" y="710" type="line"/>
-      <point x="378" y="703" type="line"/>
-      <point x="378" y="656" type="line"/>
-      <point x="377" y="651" type="line"/>
-      <point x="373" y="644" type="line"/>
-      <point x="368" y="640" type="line"/>
-      <point x="363" y="637" type="line"/>
-      <point x="357" y="636" type="line"/>
-      <point x="125" y="636" type="line"/>
-    </contour>
+    <component base="E" identifier="component0"/>
+    <component base="ogonek" xOffset="170" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>4e77be45774f47b43f05fa4d2dc3acece26885518011db7edff3849d1b44eb39df1afaf873ed86c5d88706f0de435e4257b14432fdfd36d1be03000772161988</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>

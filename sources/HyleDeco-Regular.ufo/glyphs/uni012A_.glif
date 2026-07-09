@@ -1,58 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni012A" format="2">
-  <advance width="206"/>
+  <advance width="166"/>
   <unicode hex="012A"/>
   <outline>
-    <contour>
-      <point x="42" y="668" type="line"/>
-      <point x="-14" y="668" type="line"/>
-      <point x="-21" y="670" type="line"/>
-      <point x="-27" y="675" type="line"/>
-      <point x="-30" y="680" type="line"/>
-      <point x="-32" y="686" type="line"/>
-      <point x="-32" y="732" type="line"/>
-      <point x="-30" y="741" type="line"/>
-      <point x="-25" y="747" type="line"/>
-      <point x="-18" y="751" type="line"/>
-      <point x="-12" y="752" type="line"/>
-      <point x="178" y="752" type="line"/>
-      <point x="184" y="751" type="line"/>
-      <point x="189" y="749" type="line"/>
-      <point x="193" y="745" type="line"/>
-      <point x="196" y="740" type="line"/>
-      <point x="198" y="732" type="line"/>
-      <point x="198" y="686" type="line"/>
-      <point x="196" y="679" type="line"/>
-      <point x="192" y="674" type="line"/>
-      <point x="186" y="670" type="line"/>
-      <point x="180" y="668" type="line"/>
-      <point x="124" y="668" type="line"/>
-      <point x="124" y="0" type="line"/>
-      <point x="122" y="-8" type="line"/>
-      <point x="118" y="-14" type="line"/>
-      <point x="112" y="-18" type="line"/>
-      <point x="106" y="-20" type="line"/>
-      <point x="63" y="-20" type="line"/>
-      <point x="57" y="-19" type="line"/>
-      <point x="52" y="-16" type="line"/>
-      <point x="47" y="-12" type="line"/>
-      <point x="43" y="-5" type="line"/>
-      <point x="42" y="0" type="line"/>
-    </contour>
+    <component base="I" identifier="component0"/>
+    <component base="macron" xOffset="-20" yOffset="90" identifier="component1"/>
   </outline>
   <lib>
     <dict>
-      <key>public.truetype.instructions</key>
+      <key>public.objectLibs</key>
       <dict>
-        <key>assembly</key>
-        <string>
-
-</string>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>id</key>
-        <string>be39319c3f204c2699f4814fb3fe480559d3620ee3225b7ea20dda72f9bf5d9dab09d4c839709d8f79224b5eba6c2efe8dde6550a2a949b42d6be4590c0e83ef</string>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
       </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
     </dict>
   </lib>
 </glyph>
