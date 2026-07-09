@@ -352,15 +352,15 @@ minimum length and includes visual assets.
           • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
           • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
           • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh,    
-            cherokee, coptic, math                                              
+            math, coptic, cherokee                                              
           • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, hebrew,      
-            tifinagh, todhri, duployan, old-permic, canadian-aboriginal,        
-            syriac, coptic, malayalam, math                                     
+          • U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, todhri,  
+            canadian-aboriginal, malayalam, tifinagh, duployan, math, coptic,   
+            syriac, hebrew, tai-le                                              
           • U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan    
-          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee,  
-            osage                                                               
-          • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
+          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage,     
+            cherokee                                                            
+          • U+030C COMBINING CARON: try adding one of: tai-le, cherokee         
           • U+0326 COMBINING COMMA BELOW: try adding math                       
           • U+0327 COMBINING CEDILLA: try adding math                           
           • U+0328 COMBINING OGONEK: not included in any glyphset definition    
@@ -399,15 +399,15 @@ minimum length and includes visual assets.
           • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
           • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
           • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh,    
-            cherokee, coptic, math                                              
+            math, coptic, cherokee                                              
           • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, hebrew,      
-            tifinagh, todhri, duployan, old-permic, canadian-aboriginal,        
-            syriac, coptic, malayalam, math                                     
+          • U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, todhri,  
+            canadian-aboriginal, malayalam, tifinagh, duployan, math, coptic,   
+            syriac, hebrew, tai-le                                              
           • U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan    
-          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee,  
-            osage                                                               
-          • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
+          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage,     
+            cherokee                                                            
+          • U+030C COMBINING CARON: try adding one of: tai-le, cherokee         
           • U+0326 COMBINING COMMA BELOW: try adding math                       
           • U+0327 COMBINING CEDILLA: try adding math                           
           • U+0328 COMBINING OGONEK: not included in any glyphset definition    
@@ -2421,62 +2421,6 @@ replace the dot.
 
     Result: WARN
 
- >> googlefonts/gasp
-    Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to 
-optimize rendering?
-    with HyleDeco-Thin.ttf
-
-    Rationale:                                                                
-                                                                                
-    Traditionally version 0 'gasp' tables were set so that font sizes below 8   
-    ppem had no grid fitting but did have antialiasing. From 9-16 ppem, just    
-    grid fitting. And fonts above 17ppem had both antialiasing and grid         
-    fitting toggled on. The use of accelerated graphics cards and higher        
-    resolution screens make this approach obsolete. Microsoft's DirectWrite     
-    pushed this even further with much improved rendering built into the OS     
-    and apps.                                                                   
-                                                                                
-    In this scenario it makes sense to simply toggle all 4 flags ON for all     
-    font sizes.                                                                 
-                                                                                
-    More info: https://github.com/fonttools/fontbakery/issues/4829
-
-    FAIL Font is missing the 'gasp' table. Try exporting the font with          
-         autohinting enabled. If you are dealing with an unhinted font, it can  
-         be fixed by running the fonts through the command 'gftools             
-         fix-nonhinting' GFTools is available at                                
-         https://pypi.org/project/gftools/ [code: lacks-gasp]                   
-
-    Result: FAIL
-
- >> googlefonts/gasp
-    Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to 
-optimize rendering?
-    with HyleDeco-ThinItalic.ttf
-
-    Rationale:                                                                
-                                                                                
-    Traditionally version 0 'gasp' tables were set so that font sizes below 8   
-    ppem had no grid fitting but did have antialiasing. From 9-16 ppem, just    
-    grid fitting. And fonts above 17ppem had both antialiasing and grid         
-    fitting toggled on. The use of accelerated graphics cards and higher        
-    resolution screens make this approach obsolete. Microsoft's DirectWrite     
-    pushed this even further with much improved rendering built into the OS     
-    and apps.                                                                   
-                                                                                
-    In this scenario it makes sense to simply toggle all 4 flags ON for all     
-    font sizes.                                                                 
-                                                                                
-    More info: https://github.com/fonttools/fontbakery/issues/4829
-
-    FAIL Font is missing the 'gasp' table. Try exporting the font with          
-         autohinting enabled. If you are dealing with an unhinted font, it can  
-         be fixed by running the fonts through the command 'gftools             
-         fix-nonhinting' GFTools is available at                                
-         https://pypi.org/project/gftools/ [code: lacks-gasp]                   
-
-    Result: FAIL
-
  >> googlefonts/meta/script_lang_tags
     Ensure fonts have ScriptLangTags declared on the 'meta' table.
     with HyleDeco-Thin.ttf
@@ -2666,74 +2610,16 @@ optimize rendering?
          unknown]                                                               
 
     Result: WARN
-
- >> googlefonts/weightclass
-    Check the OS/2 usWeightClass is appropriate for the font's best SubFamily 
-name.
-    with HyleDeco-Thin.ttf
-
-    Rationale:                                                                
-                                                                                
-    Google Fonts expects variable fonts, static ttfs and static otfs to have    
-    differing OS/2 usWeightClass values.                                        
-                                                                                
-    - For Variable Fonts, Thin-Black must be 100-900                            
-                                                                                
-    - For static ttfs, Thin-Black can be 100-900 or 250-900                     
-                                                                                
-    - For static otfs, Thin-Black must be 250-900                               
-                                                                                
-    If static otfs are set lower than 250, text may appear blurry in legacy     
-    Windows applications.                                                       
-                                                                                
-    Glyphsapp users can change the usWeightClass value of an instance by        
-    adding a 'weightClass' customParameter.                                     
-                                                                                
-    More info: https://github.com/fonttools/fontbakery/issues/4829
-
-    FAIL Best SubFamily name is 'Thin'. Expected OS/2 usWeightClass is 100,     
-         got 400. [code: bad-value]                                             
-
-    Result: FAIL
-
- >> googlefonts/weightclass
-    Check the OS/2 usWeightClass is appropriate for the font's best SubFamily 
-name.
-    with HyleDeco-ThinItalic.ttf
-
-    Rationale:                                                                
-                                                                                
-    Google Fonts expects variable fonts, static ttfs and static otfs to have    
-    differing OS/2 usWeightClass values.                                        
-                                                                                
-    - For Variable Fonts, Thin-Black must be 100-900                            
-                                                                                
-    - For static ttfs, Thin-Black can be 100-900 or 250-900                     
-                                                                                
-    - For static otfs, Thin-Black must be 250-900                               
-                                                                                
-    If static otfs are set lower than 250, text may appear blurry in legacy     
-    Windows applications.                                                       
-                                                                                
-    Glyphsapp users can change the usWeightClass value of an instance by        
-    adding a 'weightClass' customParameter.                                     
-                                                                                
-    More info: https://github.com/fonttools/fontbakery/issues/4829
-
-    FAIL Best SubFamily name is 'Thin Italic'. Expected OS/2 usWeightClass is   
-         100, got 400. [code: bad-value]                                        
-
-    Result: FAIL
 
 
 Total:
     ERROR: 0
     FATAL: 0
-    FAIL: 6
+    FAIL: 2
     WARN: 23
-    INFO: 13
+    INFO: 15
     SKIP: 217
-    PASS: 196
+    PASS: 198
 
 
 
