@@ -2,7 +2,7 @@ name: "Hyle Deco"
 designer: "Madhav"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2026-07-09"
+date_added: "2026-07-11"
 source {
   repository_url: "https://github.com/mbaliga/hyledeco-gf"
   branch: "main"
@@ -10,19 +10,19 @@ source {
 fonts {
   name: "Hyle Deco"
   style: "normal"
-  weight: 100
-  filename: "HyleDeco-Thin.ttf"
-  post_script_name: "HyleDeco-Thin"
-  full_name: "Hyle Deco Thin"
+  weight: 400
+  filename: "HyleDeco-Regular.ttf"
+  post_script_name: "HyleDeco-Regular"
+  full_name: "Hyle Deco Regular"
   copyright: "Copyright 2026 The Hyle Deco Project Authors (https://github.com/mbaliga/hyledeco-gf)"
 }
 fonts {
   name: "Hyle Deco"
   style: "italic"
-  weight: 100
-  filename: "HyleDeco-ThinItalic.ttf"
-  post_script_name: "HyleDeco-ThinItalic"
-  full_name: "Hyle Deco Thin Italic"
+  weight: 400
+  filename: "HyleDeco-Italic.ttf"
+  post_script_name: "HyleDeco-Italic"
+  full_name: "Hyle Deco Italic"
   copyright: "Copyright 2026 The Hyle Deco Project Authors (https://github.com/mbaliga/hyledeco-gf)"
 }
 subsets: "latin"

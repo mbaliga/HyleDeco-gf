@@ -11,7 +11,7 @@ Body:
 **Designer:** Madhav
 **License:** SIL Open Font License 1.1
 **Upstream repository:** https://github.com/mbaliga/hyledeco-gf
-**Styles:** Thin, Thin Italic (static)
+**Styles:** Regular, Italic (static)
 **Glyph coverage:** GF Latin Core, 319 of 319 verified
 
 Hyle Deco is a hairline deco display face built on a constant 44 unit stroke,

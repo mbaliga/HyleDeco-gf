@@ -1,7 +1,7 @@
 Start ... running 455 individual check executions.
  >> opentype/caret_slope
     Check hhea.caretSlopeRise and hhea.caretSlopeRun
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -28,7 +28,7 @@ Start ... running 455 individual check executions.
 
  >> contour_count
     Check if each glyph has the recommended amount of contours.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -88,7 +88,7 @@ Start ... running 455 individual check executions.
 
  >> contour_count
     Check if each glyph has the recommended amount of contours.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -148,7 +148,7 @@ Start ... running 455 individual check executions.
 
  >> math_signs_width
     Check math signs have the same width.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -164,7 +164,7 @@ Start ... running 455 individual check executions.
     WARN The most common width is 470 among a set of 2 math glyphs. The         
          following math glyphs have a different width, though:                  
                                                                                 
-         Width = 229: myst6, myst5                                              
+         Width = 229: myst5, myst6                                              
                                                                                 
          Width = 413: equal                                                     
                                                                                 
@@ -178,7 +178,7 @@ Start ... running 455 individual check executions.
 
  >> math_signs_width
     Check math signs have the same width.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -194,7 +194,7 @@ Start ... running 455 individual check executions.
     WARN The most common width is 470 among a set of 2 math glyphs. The         
          following math glyphs have a different width, though:                  
                                                                                 
-         Width = 229: myst6, myst5                                              
+         Width = 229: myst5, myst6                                              
                                                                                 
          Width = 413: equal                                                     
                                                                                 
@@ -208,7 +208,7 @@ Start ... running 455 individual check executions.
 
  >> unreachable_glyphs
     Check font contains no unreachable glyphs
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -244,7 +244,7 @@ Start ... running 455 individual check executions.
 
  >> unreachable_glyphs
     Check font contains no unreachable glyphs
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -281,7 +281,7 @@ Start ... running 455 individual check executions.
  >> googlefonts/article/images
     Validate size, and resolution of article images, and ensure article page has
 minimum length and includes visual assets.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -296,7 +296,7 @@ minimum length and includes visual assets.
                                                                                 
     More info: https://github.com/fonttools/fontbakery/issues/4594
 
-    WARN Family metadata at fonts/ttf does not have an article. [code:          
+    WARN Family metadata at ofl/hyledeco does not have an article. [code:       
          lacks-article]                                                         
 
     Result: WARN
@@ -304,7 +304,7 @@ minimum length and includes visual assets.
  >> googlefonts/article/images
     Validate size, and resolution of article images, and ensure article page has
 minimum length and includes visual assets.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -319,61 +319,58 @@ minimum length and includes visual assets.
                                                                                 
     More info: https://github.com/fonttools/fontbakery/issues/4594
 
-    WARN Family metadata at fonts/ttf does not have an article. [code:          
+    WARN Family metadata at ofl/hyledeco does not have an article. [code:       
          lacks-article]                                                         
 
     Result: WARN
 
- >> googlefonts/metadata/unreachable_subsetting
-    Check for codepoints not covered by METADATA subsets.
-    with HyleDeco-Thin.ttf
+ >> googlefonts/metadata/designer_profiles
+    METADATA.pb: Designers are listed correctly on the Google Fonts catalog?
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
-    This check ensures that all encoded glyphs in the font are covered by a     
-    subset declared in the METADATA.pb. Google Fonts splits the font into a     
-    set of subset fonts based on the contents of the `subsets` field and the    
-    subset definitions in the `glyphsets` repository.                           
+    Google Fonts has a catalog of designers.                                    
                                                                                 
-    Any encoded glyphs which are not by any of these subset definitions will    
-    not be served in the subsetted fonts, and so will be unreachable to the     
-    end user.                                                                   
+    This check ensures that the online entries of the catalog can be found      
+    based on the designer names listed on the METADATA.pb file.                 
                                                                                 
-    More info: https://github.com/fonttools/fontbakery/issues/4097
-               https://github.com/fonttools/fontbakery/pull/4273
+    It also validates the URLs and file formats are all correctly set.          
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/3083
 
-    WARN The following codepoints supported by the font are not covered by any  
-         subsets defined in the font's metadata file, and will never be         
-         served. You can solve this by either manually adding additional        
-         subset declarations to METADATA.pb, or by editing the glyphset         
-         definitions.                                                           
+    WARN It seems that Madhav is still not listed on the designers catalog.     
+         Please submit a photo and a link to a webpage where people can learn   
+         more about the work of this designer/typefoundry. [code:               
+         profile-not-found]                                                     
+
+    Result: WARN
+
+ >> googlefonts/metadata/designer_profiles
+    METADATA.pb: Designers are listed correctly on the Google Fonts catalog?
+    with HyleDeco-Regular.ttf
+
+    Rationale:                                                                
                                                                                 
-          • U+02D8 BREVE: try adding one of: canadian-aboriginal, yi            
-          • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
-          • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
-          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh,    
-            math, coptic, cherokee                                              
-          • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, todhri,  
-            canadian-aboriginal, malayalam, tifinagh, duployan, math, coptic,   
-            syriac, hebrew, tai-le                                              
-          • U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan    
-          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage,     
-            cherokee                                                            
-          • U+030C COMBINING CARON: try adding one of: tai-le, cherokee         
-          • U+0326 COMBINING COMMA BELOW: try adding math                       
-          • U+0327 COMBINING CEDILLA: try adding math                           
-          • U+0328 COMBINING OGONEK: not included in any glyphset definition    
-          • U+2260 NOT EQUAL TO: try adding math                                
+    Google Fonts has a catalog of designers.                                    
                                                                                 
-         Or you can add the above codepoints to one of the subsets supported    
-         by the font: latin, latin-ext [code: unreachable-subsetting]           
+    This check ensures that the online entries of the catalog can be found      
+    based on the designer names listed on the METADATA.pb file.                 
+                                                                                
+    It also validates the URLs and file formats are all correctly set.          
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/3083
+
+    WARN It seems that Madhav is still not listed on the designers catalog.     
+         Please submit a photo and a link to a webpage where people can learn   
+         more about the work of this designer/typefoundry. [code:               
+         profile-not-found]                                                     
 
     Result: WARN
 
  >> googlefonts/metadata/unreachable_subsetting
     Check for codepoints not covered by METADATA subsets.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -395,32 +392,77 @@ minimum length and includes visual assets.
          subset declarations to METADATA.pb, or by editing the glyphset         
          definitions.                                                           
                                                                                 
-          • U+02D8 BREVE: try adding one of: canadian-aboriginal, yi            
-          • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
-          • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
+          • U+02D8 BREVE: try adding one of: yi, canadian-aboriginal            
+          • U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal        
+          • U+02DB OGONEK: try adding one of: yi, canadian-aboriginal           
           • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh,    
-            math, coptic, cherokee                                              
+            math, cherokee, coptic                                              
           • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, todhri,  
-            canadian-aboriginal, malayalam, tifinagh, duployan, math, coptic,   
-            syriac, hebrew, tai-le                                              
+          • U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac,        
+            malayalam, hebrew, tai-le, duployan, coptic, canadian-aboriginal,   
+            tifinagh, todhri, old-permic                                        
           • U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan    
           • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage,     
             cherokee                                                            
-          • U+030C COMBINING CARON: try adding one of: tai-le, cherokee         
-          • U+0326 COMBINING COMMA BELOW: try adding math                       
-          • U+0327 COMBINING CEDILLA: try adding math                           
-          • U+0328 COMBINING OGONEK: not included in any glyphset definition    
-          • U+2260 NOT EQUAL TO: try adding math                                
+          • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
+          • U+0326 COMBINING COMMA BELOW: try adding math 3 more.               
+                                                                                
+         Use -F or --full-lists to disable shortening of long lists.            
                                                                                 
          Or you can add the above codepoints to one of the subsets supported    
-         by the font: latin, latin-ext [code: unreachable-subsetting]           
+         by the font: latin, latin-ext, menu [code: unreachable-subsetting]     
+
+    Result: WARN
+
+ >> googlefonts/metadata/unreachable_subsetting
+    Check for codepoints not covered by METADATA subsets.
+    with HyleDeco-Regular.ttf
+
+    Rationale:                                                                
+                                                                                
+    This check ensures that all encoded glyphs in the font are covered by a     
+    subset declared in the METADATA.pb. Google Fonts splits the font into a     
+    set of subset fonts based on the contents of the `subsets` field and the    
+    subset definitions in the `glyphsets` repository.                           
+                                                                                
+    Any encoded glyphs which are not by any of these subset definitions will    
+    not be served in the subsetted fonts, and so will be unreachable to the     
+    end user.                                                                   
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/4097
+               https://github.com/fonttools/fontbakery/pull/4273
+
+    WARN The following codepoints supported by the font are not covered by any  
+         subsets defined in the font's metadata file, and will never be         
+         served. You can solve this by either manually adding additional        
+         subset declarations to METADATA.pb, or by editing the glyphset         
+         definitions.                                                           
+                                                                                
+          • U+02D8 BREVE: try adding one of: yi, canadian-aboriginal            
+          • U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal        
+          • U+02DB OGONEK: try adding one of: yi, canadian-aboriginal           
+          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh,    
+            math, cherokee, coptic                                              
+          • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
+          • U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac,        
+            malayalam, hebrew, tai-le, duployan, coptic, canadian-aboriginal,   
+            tifinagh, todhri, old-permic                                        
+          • U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan    
+          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage,     
+            cherokee                                                            
+          • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
+          • U+0326 COMBINING COMMA BELOW: try adding math 3 more.               
+                                                                                
+         Use -F or --full-lists to disable shortening of long lists.            
+                                                                                
+         Or you can add the above codepoints to one of the subsets supported    
+         by the font: latin, latin-ext, menu [code: unreachable-subsetting]     
 
     Result: WARN
 
  >> googlefonts/glyphsets/shape_languages
     Shapes languages in all GF glyphsets.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -872,7 +914,7 @@ minimum length and includes visual assets.
 
  >> googlefonts/glyphsets/shape_languages
     Shapes languages in all GF glyphsets.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -1324,7 +1366,7 @@ minimum length and includes visual assets.
 
  >> googlefonts/license/OFL_body_text
     Check OFL body text is correct.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -1573,7 +1615,7 @@ minimum length and includes visual assets.
 
  >> googlefonts/license/OFL_body_text
     Check OFL body text is correct.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -1823,7 +1865,7 @@ minimum length and includes visual assets.
  >> soft_dotted
     Ensure soft_dotted characters lose their dot when combined with marks that 
 replace the dot.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -1851,7 +1893,7 @@ replace the dot.
  >> soft_dotted
     Ensure soft_dotted characters lose their dot when combined with marks that 
 replace the dot.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -1878,7 +1920,7 @@ replace the dot.
 
  >> outline_direction
     Check the direction of the outermost contour in each glyph
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -1912,25 +1954,17 @@ replace the dot.
                                                                                 
           * uni0120 (U+0120) has a counter-clockwise outer contour              
                                                                                 
-          * uni0121 (U+0121) has a counter-clockwise outer contour              
+          * 6 more.                                                             
                                                                                 
-          * uni0130 (U+0130) has a counter-clockwise outer contour              
                                                                                 
-          * uni017B (U+017B) has a counter-clockwise outer contour              
-                                                                                
-          * uni017C (U+017C) has a counter-clockwise outer contour              
-                                                                                
-          * uni0307 (U+0307) has a counter-clockwise outer contour              
-                                                                                
-          * uni2022 (U+2022) has a counter-clockwise outer contour [code:       
-          ccw-outer-contour]                                                    
-                                                                                
+         Use -F or --full-lists to disable shortening of long lists. [code:     
+         ccw-outer-contour]                                                     
 
     Result: WARN
 
  >> outline_direction
     Check the direction of the outermost contour in each glyph
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -1964,25 +1998,17 @@ replace the dot.
                                                                                 
           * uni0120 (U+0120) has a counter-clockwise outer contour              
                                                                                 
-          * uni0121 (U+0121) has a counter-clockwise outer contour              
+          * 6 more.                                                             
                                                                                 
-          * uni0130 (U+0130) has a counter-clockwise outer contour              
                                                                                 
-          * uni017B (U+017B) has a counter-clockwise outer contour              
-                                                                                
-          * uni017C (U+017C) has a counter-clockwise outer contour              
-                                                                                
-          * uni0307 (U+0307) has a counter-clockwise outer contour              
-                                                                                
-          * uni2022 (U+2022) has a counter-clockwise outer contour [code:       
-          ccw-outer-contour]                                                    
-                                                                                
+         Use -F or --full-lists to disable shortening of long lists. [code:     
+         ccw-outer-contour]                                                     
 
     Result: WARN
 
  >> outline_jaggy_segments
     Do outlines contain any jaggy segments?
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -2013,7 +2039,7 @@ replace the dot.
 
  >> outline_semi_vertical
     Do outlines contain any semi-vertical or semi-horizontal lines?
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -2049,381 +2075,17 @@ replace the dot.
                                                                                 
           * O (U+004F): L<<196.0,44.0>--<372.0,45.0>>                           
                                                                                 
-          * Oslash (U+00D8): L<<208.0,44.0>--<372.0,45.0>>                      
+          * 184 more.                                                           
                                                                                 
-          * P (U+0050): L<<104.0,655.0>--<105.0,430.0>>                         
                                                                                 
-          * P (U+0050): L<<105.0,430.0>--<360.0,431.0>>                         
-                                                                                
-          * P (U+0050): L<<368.0,656.0>--<104.0,655.0>>                         
-                                                                                
-          * P (U+0050): L<<369.0,387.0>--<104.0,386.0>>                         
-                                                                                
-          * Q (U+0051): L<<196.0,44.0>--<372.0,45.0>>                           
-                                                                                
-          * R (U+0052): L<<106.0,144.0>--<105.0,1.0>>                           
-                                                                                
-          * R (U+0052): L<<242.0,657.0>--<105.0,656.0>>                         
-                                                                                
-          * S (U+0053): L<<340.0,656.0>--<166.0,655.0>>                         
-                                                                                
-          * U (U+0055): L<<514.0,700.0>--<513.0,0.0>>                           
-                                                                                
-          * b (U+0062): L<<155.0,45.0>--<307.0,44.0>>                           
-                                                                                
-          * b (U+0062): L<<164.0,500.0>--<321.0,499.0>>                         
-                                                                                
-          * b (U+0062): L<<308.0,0.0>--<151.0,1.0>>                             
-                                                                                
-          * b (U+0062): L<<382.0,119.0>--<381.0,391.0>>                         
-                                                                                
-          * braceright (U+007D): L<<260.0,163.0>--<261.0,311.0>>                
-                                                                                
-          * d (U+0064): L<<157.0,45.0>--<309.0,44.0>>                           
-                                                                                
-          * d (U+0064): L<<166.0,500.0>--<323.0,499.0>>                         
-                                                                                
-          * d (U+0064): L<<323.0,1.0>--<166.0,0.0>>                             
-                                                                                
-          * d (U+0064): L<<384.0,119.0>--<383.0,391.0>>                         
-                                                                                
-          * five (U+0035): L<<230.0,486.0>--<13.0,487.0>>                       
-                                                                                
-          * five (U+0035): L<<56.0,656.0>--<55.0,530.0>>                        
-                                                                                
-          * five.tf: L<<263.0,486.0>--<46.0,487.0>>                             
-                                                                                
-          * five.tf: L<<89.0,656.0>--<88.0,530.0>>                              
-                                                                                
-          * four (U+0034): L<<75.0,238.0>--<289.0,237.0>>                       
-                                                                                
-          * four.tf: L<<206.0,238.0>--<420.0,237.0>>                            
-                                                                                
-          * g (U+0067): L<<153.0,499.0>--<310.0,500.0>>                         
-                                                                                
-          * g (U+0067): L<<157.0,45.0>--<309.0,44.0>>                           
-                                                                                
-          * g (U+0067): L<<323.0,1.0>--<166.0,0.0>>                             
-                                                                                
-          * g (U+0067): L<<384.0,119.0>--<383.0,391.0>>                         
-                                                                                
-          * multiply (U+00D7): L<<221.0,192.0>--<55.0,193.0>>                   
-                                                                                
-          * multiply (U+00D7): L<<285.0,237.0>--<447.0,236.0>>                  
-                                                                                
-          * multiply (U+00D7): L<<448.0,193.0>--<286.0,192.0>>                  
-                                                                                
-          * multiply (U+00D7): L<<55.0,236.0>--<222.0,237.0>>                   
-                                                                                
-          * myst0 (U+0024): L<<196.0,0.0>--<195.0,118.0>>                       
-                                                                                
-          * myst1 (U+20B9): L<<361.0,387.0>--<50.0,388.0>>                      
-                                                                                
-          * myst1 (U+20B9): L<<50.0,431.0>--<355.0,432.0>>                      
-                                                                                
-          * myst1 (U+20B9): L<<50.0,582.0>--<481.0,581.0>>                      
-                                                                                
-          * myst3 (U+00A3): L<<147.0,44.0>--<394.0,43.0>>                       
-                                                                                
-          * myst3 (U+00A3): L<<179.0,236.0>--<337.0,235.0>>                     
-                                                                                
-          * myst4 (U+0023): L<<217.0,192.0>--<50.0,193.0>>                      
-                                                                                
-          * myst4 (U+0023): L<<217.0,386.0>--<50.0,387.0>>                      
-                                                                                
-          * myst4 (U+0023): L<<217.0,431.0>--<218.0,614.0>>                     
-                                                                                
-          * myst4 (U+0023): L<<218.0,0.0>--<217.0,192.0>>                       
-                                                                                
-          * myst4 (U+0023): L<<50.0,236.0>--<217.0,237.0>>                      
-                                                                                
-          * myst4 (U+0023): L<<50.0,430.0>--<217.0,431.0>>                      
-                                                                                
-          * myst4 (U+0023): L<<507.0,614.0>--<508.0,431.0>>                     
-                                                                                
-          * myst4 (U+0023): L<<508.0,192.0>--<507.0,0.0>>                       
-                                                                                
-          * myst4 (U+0023): L<<508.0,237.0>--<675.0,236.0>>                     
-                                                                                
-          * myst4 (U+0023): L<<508.0,431.0>--<675.0,430.0>>                     
-                                                                                
-          * myst4 (U+0023): L<<675.0,193.0>--<508.0,192.0>>                     
-                                                                                
-          * myst4 (U+0023): L<<675.0,387.0>--<508.0,386.0>>                     
-                                                                                
-          * myst7 (U+2260): L<<203.0,239.0>--<354.0,238.0>>                     
-                                                                                
-          * myst7 (U+2260): L<<214.0,389.0>--<50.0,390.0>>                      
-                                                                                
-          * numbersign: L<<221.0,192.0>--<55.0,193.0>>                          
-                                                                                
-          * numbersign: L<<221.0,386.0>--<55.0,387.0>>                          
-                                                                                
-          * numbersign: L<<221.0,431.0>--<222.0,614.0>>                         
-                                                                                
-          * numbersign: L<<222.0,0.0>--<221.0,192.0>>                           
-                                                                                
-          * numbersign: L<<265.0,613.0>--<266.0,430.0>>                         
-                                                                                
-          * numbersign: L<<266.0,193.0>--<265.0,1.0>>                           
-                                                                                
-          * numbersign: L<<468.0,430.0>--<469.0,613.0>>                         
-                                                                                
-          * numbersign: L<<469.0,1.0>--<468.0,193.0>>                           
-                                                                                
-          * numbersign: L<<511.0,614.0>--<512.0,431.0>>                         
-                                                                                
-          * numbersign: L<<512.0,192.0>--<511.0,0.0>>                           
-                                                                                
-          * numbersign: L<<512.0,238.0>--<679.0,237.0>>                         
-                                                                                
-          * numbersign: L<<512.0,431.0>--<679.0,430.0>>                         
-                                                                                
-          * numbersign: L<<55.0,237.0>--<221.0,238.0>>                          
-                                                                                
-          * numbersign: L<<55.0,430.0>--<221.0,431.0>>                          
-                                                                                
-          * numbersign: L<<679.0,193.0>--<512.0,192.0>>                         
-                                                                                
-          * numbersign: L<<679.0,387.0>--<512.0,386.0>>                         
-                                                                                
-          * o (U+006F): L<<156.0,45.0>--<308.0,44.0>>                           
-                                                                                
-          * o (U+006F): L<<383.0,119.0>--<382.0,391.0>>                         
-                                                                                
-          * oslash (U+00F8): L<<185.0,44.0>--<318.0,45.0>>                      
-                                                                                
-          * oslash (U+00F8): L<<322.0,1.0>--<169.0,0.0>>                        
-                                                                                
-          * oslash (U+00F8): L<<383.0,119.0>--<382.0,391.0>>                    
-                                                                                
-          * oslash (U+00F8): L<<91.0,381.0>--<92.0,109.0>>                      
-                                                                                
-          * p (U+0070): L<<151.0,499.0>--<309.0,500.0>>                         
-                                                                                
-          * p (U+0070): L<<308.0,0.0>--<151.0,1.0>>                             
-                                                                                
-          * p (U+0070): L<<317.0,455.0>--<165.0,456.0>>                         
-                                                                                
-          * p (U+0070): L<<90.0,381.0>--<91.0,109.0>>                           
-                                                                                
-          * q (U+0071): L<<156.0,45.0>--<308.0,44.0>>                           
-                                                                                
-          * q (U+0071): L<<165.0,500.0>--<322.0,499.0>>                         
-                                                                                
-          * q (U+0071): L<<322.0,1.0>--<165.0,0.0>>                             
-                                                                                
-          * q (U+0071): L<<383.0,119.0>--<382.0,391.0>>                         
-                                                                                
-          * three (U+0033): L<<13.0,44.0>--<276.0,43.0>>                        
-                                                                                
-          * three (U+0033): L<<259.0,655.0>--<13.0,656.0>>                      
-                                                                                
-          * three.tf: L<<292.0,655.0>--<46.0,656.0>>                            
-                                                                                
-          * three.tf: L<<46.0,44.0>--<309.0,43.0>>                              
-                                                                                
-          * two (U+0032): L<<321.0,3.0>--<12.0,4.0>>                            
-                                                                                
-          * two (U+0032): L<<72.0,48.0>--<321.0,47.0>>                          
-                                                                                
-          * two.tf: L<<186.0,48.0>--<436.0,47.0>>                               
-                                                                                
-          * two.tf: L<<436.0,3.0>--<126.0,4.0>>                                 
-                                                                                
-          * u (U+0075): L<<178.0,44.0>--<296.0,45.0>>                           
-                                                                                
-          * uni0040 (U+0040): L<<208.0,260.0>--<209.0,388.0>>                   
-                                                                                
-          * uni0040 (U+0040): L<<253.0,383.0>--<252.0,261.0>>                   
-                                                                                
-          * uni0040 (U+0040): L<<393.0,253.0>--<394.0,375.0>>                   
-                                                                                
-          * uni00BA (U+00BA): L<<41.0,405.0>--<40.0,536.0>>                     
-                                                                                
-          * uni00D1 (U+00D1): L<<105.0,428.0>--<104.0,1.0>>                     
-                                                                                
-          * uni00D2 (U+00D2): L<<196.0,44.0>--<372.0,45.0>>                     
-                                                                                
-          * uni00D3 (U+00D3): L<<196.0,44.0>--<372.0,45.0>>                     
-                                                                                
-          * uni00D4 (U+00D4): L<<196.0,44.0>--<372.0,45.0>>                     
-                                                                                
-          * uni00D5 (U+00D5): L<<196.0,44.0>--<372.0,45.0>>                     
-                                                                                
-          * uni00D6 (U+00D6): L<<196.0,44.0>--<372.0,45.0>>                     
-                                                                                
-          * uni00D9 (U+00D9): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni00DA (U+00DA): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni00DB (U+00DB): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni00DC (U+00DC): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni00F2 (U+00F2): L<<156.0,45.0>--<308.0,44.0>>                     
-                                                                                
-          * uni00F2 (U+00F2): L<<383.0,119.0>--<382.0,391.0>>                   
-                                                                                
-          * uni00F3 (U+00F3): L<<156.0,45.0>--<308.0,44.0>>                     
-                                                                                
-          * uni00F3 (U+00F3): L<<383.0,119.0>--<382.0,391.0>>                   
-                                                                                
-          * uni00F4 (U+00F4): L<<156.0,45.0>--<308.0,44.0>>                     
-                                                                                
-          * uni00F4 (U+00F4): L<<383.0,119.0>--<382.0,391.0>>                   
-                                                                                
-          * uni00F5 (U+00F5): L<<156.0,45.0>--<308.0,44.0>>                     
-                                                                                
-          * uni00F5 (U+00F5): L<<383.0,119.0>--<382.0,391.0>>                   
-                                                                                
-          * uni00F6 (U+00F6): L<<156.0,45.0>--<308.0,44.0>>                     
-                                                                                
-          * uni00F6 (U+00F6): L<<383.0,119.0>--<382.0,391.0>>                   
-                                                                                
-          * uni00F9 (U+00F9): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni00FA (U+00FA): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni00FB (U+00FB): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni00FC (U+00FC): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni010E (U+010E): L<<105.0,647.0>--<104.0,46.0>>                    
-                                                                                
-          * uni010F (U+010F): L<<157.0,45.0>--<309.0,44.0>>                     
-                                                                                
-          * uni010F (U+010F): L<<166.0,500.0>--<323.0,499.0>>                   
-                                                                                
-          * uni010F (U+010F): L<<323.0,1.0>--<166.0,0.0>>                       
-                                                                                
-          * uni010F (U+010F): L<<384.0,119.0>--<383.0,391.0>>                   
-                                                                                
-          * uni0111 (U+0111): L<<157.0,45.0>--<309.0,44.0>>                     
-                                                                                
-          * uni0111 (U+0111): L<<166.0,500.0>--<323.0,499.0>>                   
-                                                                                
-          * uni0111 (U+0111): L<<323.0,1.0>--<166.0,0.0>>                       
-                                                                                
-          * uni0111 (U+0111): L<<384.0,119.0>--<383.0,391.0>>                   
-                                                                                
-          * uni011E (U+011E): L<<463.0,2.0>--<462.0,166.0>>                     
-                                                                                
-          * uni011E (U+011E): L<<506.0,236.0>--<507.0,2.0>>                     
-                                                                                
-          * uni011F (U+011F): L<<153.0,499.0>--<310.0,500.0>>                   
-                                                                                
-          * uni011F (U+011F): L<<157.0,45.0>--<309.0,44.0>>                     
-                                                                                
-          * uni011F (U+011F): L<<323.0,1.0>--<166.0,0.0>>                       
-                                                                                
-          * uni011F (U+011F): L<<384.0,119.0>--<383.0,391.0>>                   
-                                                                                
-          * uni0120 (U+0120): L<<463.0,2.0>--<462.0,166.0>>                     
-                                                                                
-          * uni0120 (U+0120): L<<506.0,236.0>--<507.0,2.0>>                     
-                                                                                
-          * uni0121 (U+0121): L<<153.0,499.0>--<310.0,500.0>>                   
-                                                                                
-          * uni0121 (U+0121): L<<157.0,45.0>--<309.0,44.0>>                     
-                                                                                
-          * uni0121 (U+0121): L<<323.0,1.0>--<166.0,0.0>>                       
-                                                                                
-          * uni0121 (U+0121): L<<384.0,119.0>--<383.0,391.0>>                   
-                                                                                
-          * uni0122 (U+0122): L<<463.0,2.0>--<462.0,166.0>>                     
-                                                                                
-          * uni0122 (U+0122): L<<506.0,236.0>--<507.0,2.0>>                     
-                                                                                
-          * uni0123 (U+0123): L<<153.0,499.0>--<310.0,500.0>>                   
-                                                                                
-          * uni0123 (U+0123): L<<157.0,45.0>--<309.0,44.0>>                     
-                                                                                
-          * uni0123 (U+0123): L<<323.0,1.0>--<166.0,0.0>>                       
-                                                                                
-          * uni0123 (U+0123): L<<384.0,119.0>--<383.0,391.0>>                   
-                                                                                
-          * uni0136 (U+0136): L<<105.0,189.0>--<104.0,1.0>>                     
-                                                                                
-          * uni0143 (U+0143): L<<105.0,428.0>--<104.0,1.0>>                     
-                                                                                
-          * uni0145 (U+0145): L<<105.0,428.0>--<104.0,1.0>>                     
-                                                                                
-          * uni0147 (U+0147): L<<105.0,428.0>--<104.0,1.0>>                     
-                                                                                
-          * uni014C (U+014C): L<<196.0,44.0>--<372.0,45.0>>                     
-                                                                                
-          * uni014D (U+014D): L<<156.0,45.0>--<308.0,44.0>>                     
-                                                                                
-          * uni014D (U+014D): L<<383.0,119.0>--<382.0,391.0>>                   
-                                                                                
-          * uni0150 (U+0150): L<<196.0,44.0>--<372.0,45.0>>                     
-                                                                                
-          * uni0151 (U+0151): L<<156.0,45.0>--<308.0,44.0>>                     
-                                                                                
-          * uni0151 (U+0151): L<<383.0,119.0>--<382.0,391.0>>                   
-                                                                                
-          * uni0154 (U+0154): L<<106.0,144.0>--<105.0,1.0>>                     
-                                                                                
-          * uni0154 (U+0154): L<<242.0,657.0>--<105.0,656.0>>                   
-                                                                                
-          * uni0158 (U+0158): L<<106.0,144.0>--<105.0,1.0>>                     
-                                                                                
-          * uni0158 (U+0158): L<<242.0,657.0>--<105.0,656.0>>                   
-                                                                                
-          * uni015A (U+015A): L<<340.0,656.0>--<166.0,655.0>>                   
-                                                                                
-          * uni015E (U+015E): L<<340.0,656.0>--<166.0,655.0>>                   
-                                                                                
-          * uni0160 (U+0160): L<<340.0,656.0>--<166.0,655.0>>                   
-                                                                                
-          * uni016A (U+016A): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni016B (U+016B): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni016E (U+016E): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni016F (U+016F): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni0170 (U+0170): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni0171 (U+0171): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni0172 (U+0172): L<<514.0,700.0>--<513.0,0.0>>                     
-                                                                                
-          * uni0173 (U+0173): L<<178.0,44.0>--<296.0,45.0>>                     
-                                                                                
-          * uni0218 (U+0218): L<<340.0,656.0>--<166.0,655.0>>                   
-                                                                                
-          * yen (U+00A5): L<<180.0,191.0>--<40.0,192.0>>                        
-                                                                                
-          * yen (U+00A5): L<<180.0,386.0>--<40.0,387.0>>                        
-                                                                                
-          * yen (U+00A5): L<<222.0,236.0>--<344.0,235.0>>                       
-                                                                                
-          * yen (U+00A5): L<<345.0,192.0>--<222.0,191.0>>                       
-                                                                                
-          * yen (U+00A5): L<<345.0,387.0>--<222.0,386.0>>                       
-                                                                                
-          * yen (U+00A5): L<<40.0,235.0>--<180.0,236.0>>                        
-                                                                                
-          * yen (U+00A5): L<<40.0,430.0>--<155.0,431.0>>                        
-                                                                                
-          * zero (U+0030): L<<195.0,44.0>--<370.0,45.0>>                        
-                                                                                
-          * zero.slash.tf: L<<195.0,44.0>--<378.0,45.0>>                        
-                                                                                
-          * zero.slash: L<<195.0,44.0>--<378.0,45.0>>                           
-                                                                                
-          * zero.tf: L<<195.0,44.0>--<370.0,45.0>> [code:                       
-          found-semi-vertical]                                                  
-                                                                                
+         Use -F or --full-lists to disable shortening of long lists. [code:     
+         found-semi-vertical]                                                   
 
     Result: WARN
 
  >> googlefonts/meta/script_lang_tags
     Ensure fonts have ScriptLangTags declared on the 'meta' table.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -2480,7 +2142,7 @@ replace the dot.
 
  >> googlefonts/meta/script_lang_tags
     Ensure fonts have ScriptLangTags declared on the 'meta' table.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -2537,7 +2199,7 @@ replace the dot.
 
  >> googlefonts/vendor_id
     Checking OS/2 achVendID.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -2575,7 +2237,7 @@ replace the dot.
 
  >> googlefonts/vendor_id
     Checking OS/2 achVendID.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -2616,10 +2278,10 @@ Total:
     ERROR: 0
     FATAL: 0
     FAIL: 2
-    WARN: 23
-    INFO: 15
-    SKIP: 217
-    PASS: 198
+    WARN: 25
+    INFO: 19
+    SKIP: 112
+    PASS: 297
 
 
 

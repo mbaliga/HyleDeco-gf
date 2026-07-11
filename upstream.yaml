@@ -4,5 +4,5 @@ branch: main
 category:
   - DISPLAY
 files:
-  fonts/ttf/HyleDeco-Thin.ttf: HyleDeco-Thin.ttf
-  fonts/ttf/HyleDeco-ThinItalic.ttf: HyleDeco-ThinItalic.ttf
+  fonts/ttf/HyleDeco-Regular.ttf: HyleDeco-Regular.ttf
+  fonts/ttf/HyleDeco-Italic.ttf: HyleDeco-Italic.ttf
