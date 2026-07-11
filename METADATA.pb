@@ -27,3 +27,4 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

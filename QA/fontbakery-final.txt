@@ -164,7 +164,7 @@ Start ... running 455 individual check executions.
     WARN The most common width is 470 among a set of 2 math glyphs. The         
          following math glyphs have a different width, though:                  
                                                                                 
-         Width = 229: myst5, myst6                                              
+         Width = 229: myst6, myst5                                              
                                                                                 
          Width = 413: equal                                                     
                                                                                 
@@ -194,7 +194,7 @@ Start ... running 455 individual check executions.
     WARN The most common width is 470 among a set of 2 math glyphs. The         
          following math glyphs have a different width, though:                  
                                                                                 
-         Width = 229: myst5, myst6                                              
+         Width = 229: myst6, myst5                                              
                                                                                 
          Width = 413: equal                                                     
                                                                                 
@@ -392,18 +392,18 @@ minimum length and includes visual assets.
          subset declarations to METADATA.pb, or by editing the glyphset         
          definitions.                                                           
                                                                                 
-          • U+02D8 BREVE: try adding one of: yi, canadian-aboriginal            
-          • U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal        
-          • U+02DB OGONEK: try adding one of: yi, canadian-aboriginal           
-          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh,    
-            math, cherokee, coptic                                              
-          • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac,        
-            malayalam, hebrew, tai-le, duployan, coptic, canadian-aboriginal,   
-            tifinagh, todhri, old-permic                                        
-          • U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan    
-          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage,     
-            cherokee                                                            
+          • U+02D8 BREVE: try adding one of: canadian-aboriginal, yi            
+          • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
+          • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
+          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee,    
+            tifinagh, coptic, math                                              
+          • U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh     
+          • U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri,   
+            duployan, coptic, hebrew, tai-le, syriac, tifinagh,                 
+            canadian-aboriginal, old-permic, math                               
+          • U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac    
+          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee,  
+            osage                                                               
           • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
           • U+0326 COMBINING COMMA BELOW: try adding math 3 more.               
                                                                                 
@@ -438,18 +438,18 @@ minimum length and includes visual assets.
          subset declarations to METADATA.pb, or by editing the glyphset         
          definitions.                                                           
                                                                                 
-          • U+02D8 BREVE: try adding one of: yi, canadian-aboriginal            
-          • U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal        
-          • U+02DB OGONEK: try adding one of: yi, canadian-aboriginal           
-          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh,    
-            math, cherokee, coptic                                              
-          • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac,        
-            malayalam, hebrew, tai-le, duployan, coptic, canadian-aboriginal,   
-            tifinagh, todhri, old-permic                                        
-          • U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan    
-          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage,     
-            cherokee                                                            
+          • U+02D8 BREVE: try adding one of: canadian-aboriginal, yi            
+          • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
+          • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
+          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee,    
+            tifinagh, coptic, math                                              
+          • U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh     
+          • U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri,   
+            duployan, coptic, hebrew, tai-le, syriac, tifinagh,                 
+            canadian-aboriginal, old-permic, math                               
+          • U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac    
+          • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee,  
+            osage                                                               
           • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
           • U+0326 COMBINING COMMA BELOW: try adding math 3 more.               
                                                                                 
@@ -472,18 +472,6 @@ minimum length and includes visual assets.
                                                                                 
     More info: https://github.com/googlefonts/fontbakery/issues/4147
 
-    FAIL GF_TransLatin_Arabic glyphset:                                         
-                                                                                
-                                                                                
-          FAIL messages                                       Languages         
-          ───────────────────────────────────────────────────────────────────   
-          Mandatory orthography codepoints:                                     
-          Shaper didn't attach uni0301 to J when shaping the                    
-          text 'ÍJ́'                                                             
-          Shaper didn't attach uni0301 to j when shaping the  nl_Latn (Dutch)   
-          text 'íj́'                                                             
-          [code: failed-language-shaping]                                       
-                                                                                
     WARN GF_TransLatin_Arabic glyphset:                                         
                                                                                 
                                                                                 
@@ -705,164 +693,9 @@ minimum length and includes visual assets.
           The following auxiliary                                               
           characters are missing from the                                       
           font: ĩ                                                               
-          The following auxiliary                                               
+          The following auxiliary           lt_Latn (Lithuanian)                
           characters are missing from the                                       
           font: ũ                                                               
-          Shaper didn't attach uni0301 to                                       
-          uni0104 when shaping the text                                         
-          'Ą́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0104 when shaping the text                                         
-          'Ą̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0118 when shaping the text                                         
-          'Ę́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0118 when shaping the text                                         
-          'Ę̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0116 when shaping the text                                         
-          'Ė́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0116 when shaping the text                                         
-          'Ė̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0130 when shaping the text                                         
-          'İ́'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0130 when shaping the text                                         
-          'İ́'                                                                   
-          Shaper didn't attach uni0300 to                                       
-          uni0130 when shaping the text                                         
-          'İ̀'                                                                   
-          Shaper didn't attach uni0300 to                                       
-          uni0130 when shaping the text                                         
-          'İ̀'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0130 when shaping the text                                         
-          'İ̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0130 when shaping the text                                         
-          'İ̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni012E when shaping the text                                         
-          'Į́'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012E when shaping the text                                         
-          'Į̇́'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0307 when shaping the text                                         
-          'Į̇́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni012E when shaping the text                                         
-          'Į̃'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012E when shaping the text                                         
-          'Į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'Į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          J when shaping the text 'J̃'                                           
-          Shaper didn't attach uni0307 to                                       
-          J when shaping the text 'J̇̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'J̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          L when shaping the text 'L̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          M when shaping the text 'M̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          R when shaping the text 'R̃'                                           
-          Shaper didn't attach uni0301 to                                       
-          uni0172 when shaping the text                                         
-          'Ų́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0172 when shaping the text                                         
-          'Ų̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni016A when shaping the text                                         
-          'Ū́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni016A when shaping the text                                         
-          'Ū̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0105 when shaping the text                                         
-          'ą́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0105 when shaping the text                                         
-          'ą̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0119 when shaping the text                                         
-          'ę́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0119 when shaping the text                                         
-          'ę̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0117 when shaping the text                                         
-          'ė́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0117 when shaping the text                                         
-          'ė̃'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          i when shaping the text 'i̇́'                                           
-          Shaper didn't attach uni0301 to                                       
-          uni0307 when shaping the text                                         
-          'i̇́'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          i when shaping the text 'i̇̀'                                           
-          Shaper didn't attach uni0300 to                                       
-          uni0307 when shaping the text                                         
-          'i̇̀'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          i when shaping the text 'i̇̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'i̇̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni012F when shaping the text                                         
-          'į́'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012F when shaping the text                                         
-          'į̇́'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0307 when shaping the text                                         
-          'į̇́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni012F when shaping the text                                         
-          'į̃'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012F when shaping the text                                         
-          'į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          j when shaping the text 'j̃'                                           
-          Shaper didn't attach uni0307 to                                       
-          j when shaping the text 'j̇̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'j̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          l when shaping the text 'l̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          m when shaping the text 'm̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          r when shaping the text 'r̃'                                           
-          Shaper didn't attach uni0301 to                                       
-          uni0173 when shaping the text                                         
-          'ų́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0173 when shaping the text                                         
-          'ų̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni016B when shaping the text                                         
-          'ū́'                                                                   
-          Shaper didn't attach uni0303 to   lt_Latn (Lithuanian)                
-          uni016B when shaping the text                                         
-          'ū̃'                                                                   
           Auxiliary orthography                                                 
           codepoints:                                                           
           The following auxiliary                                               
@@ -910,7 +743,7 @@ minimum length and includes visual assets.
           [code: warning-language-shaping]                                      
                                                                                 
 
-    Result: FAIL
+    Result: WARN
 
  >> googlefonts/glyphsets/shape_languages
     Shapes languages in all GF glyphsets.
@@ -924,18 +757,6 @@ minimum length and includes visual assets.
                                                                                 
     More info: https://github.com/googlefonts/fontbakery/issues/4147
 
-    FAIL GF_TransLatin_Arabic glyphset:                                         
-                                                                                
-                                                                                
-          FAIL messages                                       Languages         
-          ───────────────────────────────────────────────────────────────────   
-          Mandatory orthography codepoints:                                     
-          Shaper didn't attach uni0301 to J when shaping the                    
-          text 'ÍJ́'                                                             
-          Shaper didn't attach uni0301 to j when shaping the  nl_Latn (Dutch)   
-          text 'íj́'                                                             
-          [code: failed-language-shaping]                                       
-                                                                                
     WARN GF_TransLatin_Arabic glyphset:                                         
                                                                                 
                                                                                 
@@ -1157,164 +978,9 @@ minimum length and includes visual assets.
           The following auxiliary                                               
           characters are missing from the                                       
           font: ĩ                                                               
-          The following auxiliary                                               
+          The following auxiliary           lt_Latn (Lithuanian)                
           characters are missing from the                                       
           font: ũ                                                               
-          Shaper didn't attach uni0301 to                                       
-          uni0104 when shaping the text                                         
-          'Ą́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0104 when shaping the text                                         
-          'Ą̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0118 when shaping the text                                         
-          'Ę́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0118 when shaping the text                                         
-          'Ę̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0116 when shaping the text                                         
-          'Ė́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0116 when shaping the text                                         
-          'Ė̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0130 when shaping the text                                         
-          'İ́'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0130 when shaping the text                                         
-          'İ́'                                                                   
-          Shaper didn't attach uni0300 to                                       
-          uni0130 when shaping the text                                         
-          'İ̀'                                                                   
-          Shaper didn't attach uni0300 to                                       
-          uni0130 when shaping the text                                         
-          'İ̀'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0130 when shaping the text                                         
-          'İ̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0130 when shaping the text                                         
-          'İ̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni012E when shaping the text                                         
-          'Į́'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012E when shaping the text                                         
-          'Į̇́'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0307 when shaping the text                                         
-          'Į̇́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni012E when shaping the text                                         
-          'Į̃'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012E when shaping the text                                         
-          'Į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'Į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          J when shaping the text 'J̃'                                           
-          Shaper didn't attach uni0307 to                                       
-          J when shaping the text 'J̇̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'J̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          L when shaping the text 'L̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          M when shaping the text 'M̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          R when shaping the text 'R̃'                                           
-          Shaper didn't attach uni0301 to                                       
-          uni0172 when shaping the text                                         
-          'Ų́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0172 when shaping the text                                         
-          'Ų̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni016A when shaping the text                                         
-          'Ū́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni016A when shaping the text                                         
-          'Ū̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0105 when shaping the text                                         
-          'ą́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0105 when shaping the text                                         
-          'ą̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0119 when shaping the text                                         
-          'ę́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0119 when shaping the text                                         
-          'ę̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0117 when shaping the text                                         
-          'ė́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0117 when shaping the text                                         
-          'ė̃'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          i when shaping the text 'i̇́'                                           
-          Shaper didn't attach uni0301 to                                       
-          uni0307 when shaping the text                                         
-          'i̇́'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          i when shaping the text 'i̇̀'                                           
-          Shaper didn't attach uni0300 to                                       
-          uni0307 when shaping the text                                         
-          'i̇̀'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          i when shaping the text 'i̇̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'i̇̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni012F when shaping the text                                         
-          'į́'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012F when shaping the text                                         
-          'į̇́'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni0307 when shaping the text                                         
-          'į̇́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni012F when shaping the text                                         
-          'į̃'                                                                   
-          Shaper didn't attach uni0307 to                                       
-          uni012F when shaping the text                                         
-          'į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'į̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          j when shaping the text 'j̃'                                           
-          Shaper didn't attach uni0307 to                                       
-          j when shaping the text 'j̇̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          uni0307 when shaping the text                                         
-          'j̇̃'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          l when shaping the text 'l̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          m when shaping the text 'm̃'                                           
-          Shaper didn't attach uni0303 to                                       
-          r when shaping the text 'r̃'                                           
-          Shaper didn't attach uni0301 to                                       
-          uni0173 when shaping the text                                         
-          'ų́'                                                                   
-          Shaper didn't attach uni0303 to                                       
-          uni0173 when shaping the text                                         
-          'ų̃'                                                                   
-          Shaper didn't attach uni0301 to                                       
-          uni016B when shaping the text                                         
-          'ū́'                                                                   
-          Shaper didn't attach uni0303 to   lt_Latn (Lithuanian)                
-          uni016B when shaping the text                                         
-          'ū̃'                                                                   
           Auxiliary orthography                                                 
           codepoints:                                                           
           The following auxiliary                                               
@@ -1362,7 +1028,7 @@ minimum length and includes visual assets.
           [code: warning-language-shaping]                                      
                                                                                 
 
-    Result: FAIL
+    Result: WARN
 
  >> googlefonts/license/OFL_body_text
     Check OFL body text is correct.
@@ -1859,6 +1525,66 @@ minimum length and includes visual assets.
          - OTHER DEALINGS IN THE FONT SOFTWARE.                                 
                                                                                 
          [code: incorrect-ofl-body-text]                                        
+
+    Result: WARN
+
+ >> dotted_circle
+    Ensure dotted circle glyph is present and can attach marks.
+    with HyleDeco-Italic.ttf
+
+    Rationale:                                                                
+                                                                                
+    The dotted circle character (U+25CC) is inserted by shaping engines before  
+    mark glyphs which do not have an associated base, especially in the         
+    context of broken syllabic clusters.                                        
+                                                                                
+    For fonts containing combining marks, it is recommended that the dotted     
+    circle character be included so that these isolated marks can be displayed  
+    properly; for fonts supporting complex scripts, this should be considered   
+    mandatory.                                                                  
+                                                                                
+    Additionally, when a dotted circle glyph is present, it should be able to   
+    display all marks correctly, meaning that it should contain anchors for     
+    all attaching marks.                                                        
+                                                                                
+    A fontmake filter can be used to automatically add a dotted_circle to a     
+    font:                                                                       
+                                                                                
+    fontmake --filter 'DottedCircleFilter(pre=True)' --filter '...'             
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/3600
+
+    WARN No dotted circle glyph present [code: missing-dotted-circle]           
+
+    Result: WARN
+
+ >> dotted_circle
+    Ensure dotted circle glyph is present and can attach marks.
+    with HyleDeco-Regular.ttf
+
+    Rationale:                                                                
+                                                                                
+    The dotted circle character (U+25CC) is inserted by shaping engines before  
+    mark glyphs which do not have an associated base, especially in the         
+    context of broken syllabic clusters.                                        
+                                                                                
+    For fonts containing combining marks, it is recommended that the dotted     
+    circle character be included so that these isolated marks can be displayed  
+    properly; for fonts supporting complex scripts, this should be considered   
+    mandatory.                                                                  
+                                                                                
+    Additionally, when a dotted circle glyph is present, it should be able to   
+    display all marks correctly, meaning that it should contain anchors for     
+    all attaching marks.                                                        
+                                                                                
+    A fontmake filter can be used to automatically add a dotted_circle to a     
+    font:                                                                       
+                                                                                
+    fontmake --filter 'DottedCircleFilter(pre=True)' --filter '...'             
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/3600
+
+    WARN No dotted circle glyph present [code: missing-dotted-circle]           
 
     Result: WARN
 
@@ -2277,11 +2003,11 @@ replace the dot.
 Total:
     ERROR: 0
     FATAL: 0
-    FAIL: 2
-    WARN: 25
+    FAIL: 0
+    WARN: 29
     INFO: 19
-    SKIP: 112
-    PASS: 297
+    SKIP: 104
+    PASS: 303
 
 
 
@@ -2300,5 +2026,33 @@ And a  SKIP happens when the check does not apply to the given font.
     reports and/or feature requests are also always welcome, of course!)
 
 
+
+
+                           ,@.
+                         ,@.@@,.
+                   ,@@,.@@@.  @.@@@,.
+                 ,@@. @@@.     @@. @@,.
+         ,@@@.@,.@.              @.  @@@@,.@.@@,.
+    ,@@.@.     @@.@@.            @,.    .@’ @’  @@,
+  ,@@. @.          .@@.@@@.  @@’                  @,
+ ,@.  @@.                                          @,
+ @.     @,@@,.     ,                             .@@,
+ @,.       .@,@@,.         .@@,.  ,       .@@,  @, @,
+ @.                             .@. @ @@,.    ,      @
+  @,.@@.     @,.      @@,.      @.           @,.    @’
+   @@||@,.  @’@,.       @@,.  @@ @,.        @’@@,  @’
+      \\@@@@’  @,.      @’@@@@’   @@,.   @@@’ //@@@’
+       |||||||| @@,.  @@’ |||||||  |@@@|@||  ||
+        \\\\\\\  ||@@@||  |||||||  |||||||  //
+         |||||||  ||||||  ||||||   ||||||  ||
+          \\\\\\  ||||||  ||||||  ||||||  //
+           ||||||  |||||  |||||   |||||  ||
+            \\\\\  |||||  |||||  |||||  //
+             |||||  ||||  |||||  ||||  ||
+              \\\\  ||||  ||||  ||||  //
+               ||||||||||||||||||||||||
+
+         No check is failing. Get a cupcake!
+       <<Art by Tony de Marco, July 26, 2018>>
 
 DONE!

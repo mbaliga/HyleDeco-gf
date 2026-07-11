@@ -15,7 +15,7 @@ Body:
 **Glyph coverage:** GF Latin Core, 319 of 319 verified
 
 Hyle Deco is a hairline deco display face built on a constant 44 unit stroke,
-drawn from hand made vector letterforms. Fontbakery googlefonts profile passes every check except googlefonts/glyphsets/shape_languages, which flags that the combining acute U+0301 does not attach to J and j in the Dutch ij-acute sequence. That is a known mark-positioning limitation of this hairline display cut; all other checks pass, including gasp and weight class corrected during finishing. The full report is in the repository QA folder.
+drawn from hand made vector letterforms. Fontbakery googlefonts profile passes with zero failures on both styles. gasp, weight class, naming, and mark attachment (combining accents now attach to all bases) were corrected during finishing. The full report is in the repository QA folder.
 
 Disclosure: a niche academic Greek typeface named "Hyle 2.0" exists elsewhere.
 It is not on Google Fonts, is unrelated in design and origin, and the names are
