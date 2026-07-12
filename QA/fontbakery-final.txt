@@ -296,7 +296,7 @@ minimum length and includes visual assets.
                                                                                 
     More info: https://github.com/fonttools/fontbakery/issues/4594
 
-    WARN Family metadata at ofl/hyledeco does not have an article. [code:       
+    WARN Family metadata at fonts/ttf does not have an article. [code:          
          lacks-article]                                                         
 
     Result: WARN
@@ -319,55 +319,11 @@ minimum length and includes visual assets.
                                                                                 
     More info: https://github.com/fonttools/fontbakery/issues/4594
 
-    WARN Family metadata at ofl/hyledeco does not have an article. [code:       
+    WARN Family metadata at fonts/ttf does not have an article. [code:          
          lacks-article]                                                         
 
     Result: WARN
 
- >> googlefonts/metadata/designer_profiles
-    METADATA.pb: Designers are listed correctly on the Google Fonts catalog?
-    with HyleDeco-Italic.ttf
-
-    Rationale:                                                                
-                                                                                
-    Google Fonts has a catalog of designers.                                    
-                                                                                
-    This check ensures that the online entries of the catalog can be found      
-    based on the designer names listed on the METADATA.pb file.                 
-                                                                                
-    It also validates the URLs and file formats are all correctly set.          
-                                                                                
-    More info: https://github.com/fonttools/fontbakery/issues/3083
-
-    WARN It seems that Madhav is still not listed on the designers catalog.     
-         Please submit a photo and a link to a webpage where people can learn   
-         more about the work of this designer/typefoundry. [code:               
-         profile-not-found]                                                     
-
-    Result: WARN
-
- >> googlefonts/metadata/designer_profiles
-    METADATA.pb: Designers are listed correctly on the Google Fonts catalog?
-    with HyleDeco-Regular.ttf
-
-    Rationale:                                                                
-                                                                                
-    Google Fonts has a catalog of designers.                                    
-                                                                                
-    This check ensures that the online entries of the catalog can be found      
-    based on the designer names listed on the METADATA.pb file.                 
-                                                                                
-    It also validates the URLs and file formats are all correctly set.          
-                                                                                
-    More info: https://github.com/fonttools/fontbakery/issues/3083
-
-    WARN It seems that Madhav is still not listed on the designers catalog.     
-         Please submit a photo and a link to a webpage where people can learn   
-         more about the work of this designer/typefoundry. [code:               
-         profile-not-found]                                                     
-
-    Result: WARN
-
  >> googlefonts/metadata/unreachable_subsetting
     Check for codepoints not covered by METADATA subsets.
     with HyleDeco-Italic.ttf
@@ -395,22 +351,22 @@ minimum length and includes visual assets.
           • U+02D8 BREVE: try adding one of: canadian-aboriginal, yi            
           • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
           • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
-          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee,    
-            tifinagh, coptic, math                                              
-          • U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri,   
-            duployan, coptic, hebrew, tai-le, syriac, tifinagh,                 
-            canadian-aboriginal, old-permic, math                               
+          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math,        
+            cherokee, tifinagh, coptic                                          
+          • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
+          • U+0307 COMBINING DOT ABOVE: try adding one of: duployan, syriac,    
+            hebrew, malayalam, todhri, old-permic, tifinagh, tai-le, coptic,    
+            math, canadian-aboriginal                                           
           • U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac    
           • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee,  
             osage                                                               
-          • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
+          • U+030C COMBINING CARON: try adding one of: tai-le, cherokee         
           • U+0326 COMBINING COMMA BELOW: try adding math 3 more.               
                                                                                 
          Use -F or --full-lists to disable shortening of long lists.            
                                                                                 
          Or you can add the above codepoints to one of the subsets supported    
-         by the font: latin, latin-ext, menu [code: unreachable-subsetting]     
+         by the font: latin, latin-ext [code: unreachable-subsetting]           
 
     Result: WARN
 
@@ -441,22 +397,22 @@ minimum length and includes visual assets.
           • U+02D8 BREVE: try adding one of: canadian-aboriginal, yi            
           • U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi        
           • U+02DB OGONEK: try adding one of: canadian-aboriginal, yi           
-          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee,    
-            tifinagh, coptic, math                                              
-          • U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh     
-          • U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri,   
-            duployan, coptic, hebrew, tai-le, syriac, tifinagh,                 
-            canadian-aboriginal, old-permic, math                               
+          • U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math,        
+            cherokee, tifinagh, coptic                                          
+          • U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic     
+          • U+0307 COMBINING DOT ABOVE: try adding one of: duployan, syriac,    
+            hebrew, malayalam, todhri, old-permic, tifinagh, tai-le, coptic,    
+            math, canadian-aboriginal                                           
           • U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac    
           • U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee,  
             osage                                                               
-          • U+030C COMBINING CARON: try adding one of: cherokee, tai-le         
+          • U+030C COMBINING CARON: try adding one of: tai-le, cherokee         
           • U+0326 COMBINING COMMA BELOW: try adding math 3 more.               
                                                                                 
          Use -F or --full-lists to disable shortening of long lists.            
                                                                                 
          Or you can add the above codepoints to one of the subsets supported    
-         by the font: latin, latin-ext, menu [code: unreachable-subsetting]     
+         by the font: latin, latin-ext [code: unreachable-subsetting]           
 
     Result: WARN
 
@@ -2004,10 +1960,10 @@ Total:
     ERROR: 0
     FATAL: 0
     FAIL: 0
-    WARN: 29
-    INFO: 19
-    SKIP: 104
-    PASS: 303
+    WARN: 27
+    INFO: 15
+    SKIP: 207
+    PASS: 206
 
 
 

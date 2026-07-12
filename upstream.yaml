@@ -1,8 +1,6 @@
 name: Hyle Deco
-repository_url: https://github.com/mbaliga/hyledeco-gf
+repository_url: https://github.com/mbaliga/HyleDeco-gf
 branch: main
-category:
-  - DISPLAY
 files:
-  fonts/ttf/HyleDeco-Regular.ttf: HyleDeco-Regular.ttf
-  fonts/ttf/HyleDeco-Italic.ttf: HyleDeco-Italic.ttf
+  - fonts/ttf/HyleDeco-Regular.ttf
+  - fonts/ttf/HyleDeco-Italic.ttf

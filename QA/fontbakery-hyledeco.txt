@@ -1,7 +1,7 @@
 Start ... running 455 individual check executions.
  >> fontdata_namecheck
     Familyname must be unique according to namecheck.fontdata.com
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -32,7 +32,7 @@ Start ... running 455 individual check executions.
 
  >> fontdata_namecheck
     Familyname must be unique according to namecheck.fontdata.com
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
@@ -63,7 +63,7 @@ Start ... running 455 individual check executions.
 
  >> googlefonts/metadata/includes_production_subsets
     Check METADATA.pb includes production subsets.
-    with HyleDeco-Thin.ttf
+    with HyleDeco-Regular.ttf
 
     Rationale:                                                                
                                                                                 
@@ -108,7 +108,7 @@ Start ... running 455 individual check executions.
 
  >> googlefonts/metadata/includes_production_subsets
     Check METADATA.pb includes production subsets.
-    with HyleDeco-ThinItalic.ttf
+    with HyleDeco-Italic.ttf
 
     Rationale:                                                                
                                                                                 
