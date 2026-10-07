@@ -57,3 +57,32 @@ Consumes none of F1 to F12. Provides raw input only: the TTFs that `Hyle-Design-
 ## 9. Sources read
 `README.md`, `ISSUE_SUBMISSION.md`, `upstream.yaml`, `OFL.txt`, `DESCRIPTION.en_us.html`, `.github/workflows/cleanup-artifacts.yml`, `QA/fontbakery-final.txt`,
 `sources/HyleDeco-Regular.ufo`, both TTFs (table directory, md5), git history; siblings `Hyle-Design-System/{fonts/HyleDeco,TRADEMARKS.md}`, `Typewright/fonts`.
+
+## Owner rulings and the proposed line (added 2026-10-07)
+
+Status: PLAN. Nothing here is built, run on a device, signed or submitted. The program-level plan is Personal-Tracker `PORTING_PROGRAM.md` ([PR #10](https://github.com/mbaliga/Personal-Tracker/pull/10)), which holds the owner's rulings and section 5A, the proposed port / no-port line. The cells, estimates and open questions above are this repo's original plan and are unedited. Where the owner has since answered a question, the answer is below. Section 5A is a proposal; the owner has not yet confirmed it.
+
+### Where HyleDeco-gf sits in the proposed line (program section 5A.3, a proposal)
+
+| Target       | Verdict | Weeks and flags |
+| ------------ | ------- | --------------- |
+| Ubuntu Touch | follows | -               |
+| Linux        | exists  | -               |
+| iOS/iPadOS   | follows | -               |
+| macOS        | exists  | -               |
+| Windows      | exists  | -               |
+
+Key: `follows` means it ports only as far as the products that depend on it; `exists` means the program reads it as already running there, unverified. P-numbers and OQ-numbers refer to the program plan (Personal-Tracker `PORTING_PROGRAM.md`, sections 5A.5 and 8).
+
+Reason: A font: the program reads it as loading on the desktops (unverified; nothing was rendered), and the consuming apps bundle the TTFs, including on iOS and Ubuntu Touch, where there is no plain system install.
+
+### Owner rulings that apply here
+
+- None of the program's owner rulings applies to this repo: it has no code, keys, UI or CI lane.
+- **Repo-specific:** the plan's NOT-APPLICABLE cells and the proposed exists and follows describe the same disposition: nothing to build, sign or port here; consuming apps bundle the TTFs.
+
+### Prerequisites and open questions that touch this repo (program sections 5A.5 and 8)
+
+No program-level prerequisite is named for this repo.
+
+When the owner confirms or changes the line, this repo's original cells above stay as the engineering detail; only the verdicts and re-costs in program section 5A change.
